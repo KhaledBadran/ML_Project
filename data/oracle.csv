@@ -1,0 +1,938 @@
+﻿project,url,entity type,body,entity,notes
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/16544#issuecomment-373821620,branch_name,@BerkeleyTrue Alex's efforts are worth testing and hence we should get this into a branch other than staging for now.,staging,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/16544#issuecomment-375688874,branch_name,"@alexch I have a PR open on your branch, it pulls in the latest changes on staging also",staging,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/40518#issue-773051766,branch_name,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the master branch of freeCodeCamp.
+All the files I changed are in the same world language, for example: only English changes, or only Chinese changes, etc.
+I am not sure why this has not been implemented yet, as the groundwork was already there. So, this PR just adds any assertion errors to the user-visible console.
+The reason the .md file is included in this PR, is to, hopefully, show a best case scenario of, well-written tests, combined with decent error handling - How informative it can be.",master,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issue-992956585,branch_name,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the main branch of freeCodeCamp.
+I have tested these changes either locally on my machine, or GitPod.
+Closes #43427",main,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-871621658,branch_name,📢 Please target all further PRs to the main branch.,main,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/16358#issuecomment-354344617,branch_name,"Update: after some investigation by one of our campers, it seems the staging branch fixes the issue but has not been ported over to beta.",staging,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/35033#issuecomment-477307223,branch_name,"@Fordco What I'd suggest you do is pull a fresh copy of the latest master branch, make your changes on that fresh copy and push it here",master,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issue-992956585,branch_name,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the main branch of freeCodeCamp.
+I have tested these changes either locally on my machine, or GitPod.
+Closes #43427",main,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/36366#issue-463220290,branch_name,"new solution addresses the possibility of first letter of arg ""before"" being lower case and needing to change the first letter of ""after"" from capital to lowercase
+solution more streamlined
+added resource to help with regular expressions
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the master branch of freeCodeCamp.
+None of my changes are plagiarized from another source without proper attribution.
+All the files I changed are in the same world language (for example: only English changes, or only Chinese changes, etc.)
+My changes do not use shortened URLs or affiliate links.
+Closes #XXXXX",master,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/9740#issue-165833421,branch_name,"Pre-Submission Checklist
+Your pull request targets the staging branch of FreeCodeCamp.
+Branch starts with either fix/, feature/, or translate/ (e.g. fix/signin-issue)
+You have only one commit (if not, squash them into one commit).
+All new and existing tests pass the command npm run test-challenges. Use git commit --amend to amend any fixes.",fix/signin-issue,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/9740#issue-165833421,branch_name,"Pre-Submission Checklist
+Your pull request targets the staging branch of FreeCodeCamp.
+Branch starts with either fix/, feature/, or translate/ (e.g. fix/signin-issue)
+You have only one commit (if not, squash them into one commit).
+All new and existing tests pass the command npm run test-challenges. Use git commit --amend to amend any fixes.",staging,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-258304149,branch_name,"""Your wish is being granted, Eigen is being ported over AMD GPU via HIP. The second part of your request is can we bring standardized tool supporting FLOAT16 that ships with all our GFX8 GPU's, wish granted.""
+Our development branch of AMDGPU compiler now support's both Float16 and Int16 native instruction, instead of emulating FP16/Int16 with up convert & down convert instructions to convert from FP16/Int16 to Float and back.",development,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-298019161,branch_name,"In the meantime, feel free to contribute to https://github.com/triSYCL/triSYCL and the TensorFlow & Eigen branches dealing with SYCL...
+
+",TensorFlow,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-298019161,branch_name,"In the meantime, feel free to contribute to https://github.com/triSYCL/triSYCL and the TensorFlow & Eigen branches dealing with SYCL...",Eigen,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-302114417,branch_name,@cathalgarvey I have been using Caffe OpenCL branch on AMD's GPUs and it works just fine. make run test passed all tests except one,OpenCL,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-302122670,branch_name,"Installing ROCm to build/test hipCaffe required me to uninstall
+AMDGPU-pro, perhaps I'll try the vanilla branch again. It's poorly
+documented, unfortunately.. I suppose I'll try a blind ""make"" and see.",vanilla,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-327673607,branch_name,"ubuntu 14.04
+tensorflow master branch
+build opencl support, and only opencl intel cpu runtime installed.
+python2.7
+follow https://developer.codeplay.com/computecppce/latest/getting-started-with-tensflow guide
+execute python classify_image.py
+it seems didn't call opencl driver. (I added my opencl icd wrapper, didn't see anything)
+Is there any config need add in python code?
+Like sess.graph.device('/cpu0')",master,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-350857556,branch_name,"I can also successfull compile and use the tensorflow (currently version 1.4.1) CPU version. But i fail to successfully compile the OpenCL version of tensorflow. I use computecpp 0.5 (the current one i can download without need to registering) together with vanilla tensorflow 1.4.1 and with the ""dev/amd_gpu"" branch from @lukeiwanski's fork.
+So could please someone who successfully compiled the OpenCL version of tensorflow provide some information which version of the computecpp library and which branch of which tensorflow git he/she is using?",dev/amd_gpu,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-352481313,branch_name,"When i use the amd_gpu branch with a jupyter notebook, there seems to be a left over thread. python still uses 100% of one cpu, even after the computation has finished. Restarting the kernel finishes the stray thread. Does anybody else experience this?",amd_gpu,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/2002#issuecomment-218683138,branch_name,"@wchan
+yes that is actually true, I thought that you could create the Back Operator from the Forward Operator and thus passing some reference from it. My work in progress code is in my branch feature/cudnn-rnn-lstm
+yes you need to be whitelisted to actually run the testing.",feature/cudnn-rnn-lstm,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/11392#issuecomment-318574809,branch_name,The above error is fixed by recent commits on master branch.,master,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/11392#issuecomment-320828962,branch_name,"No, we can merge this PR any time, but it won't be in the 1.3 branch, and
+if anyone installs the 1.3 binary they won't see it's effects.",1.3,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/377#issuecomment-4204013,branch_name,"I don't think we've figured out where the sweet spot is here. It's not 5, it's not 100... it's somewhere in between. As you'll have seen over the past few months, I've stopped auto-accepting new themes until I can sort this out. We're going to introduce a new approval process where people will need to get enough votes from the community for it to get merged into my master branch. Details to come on this front.",master,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-541782284,branch_name,Hi! I'll take git-remote-branch -> #8259,git-remote-branch,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/5113#issuecomment-251833403,branch_name,"Hello. I tried checking out this PR, however problem with up-arrow not doing partial search and non-working home/end keys still presists, same thing happens on master branch.
+Currenly my workaround is to execute zle-line-init, but that persists only for next command. doing zle-line-init; zle-line-finish however does not help.",master,split comment for two mentions
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/5113#issuecomment-251833403,branch_name,"I am at loss, where should I look? I have two machines with more-or-less same setup, on one problem exists, on other problem is absent even on master branch. Currenly only important difference I see is that problem occurs on zsh version 5.2, while on zsh version 5.0.7 it does not. Both machines are running Debian, but different versions (testing/sid and stable respectively).",master,split comment for two mentions
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/215#issuecomment-1239770,branch_name,"Sorin, I didn't remove the symlink: rather, the symlink never existed in my fork's history in the first place. That's what I meant by ""disjoint"".
+I don't see any issues with syntax coloring, everything seems normal. Try my OMZ fork's personal or history branch for example.",history,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/215#issuecomment-1260877,branch_name,"Just merged the latest sunaku/history branch, still working as expected.
+FYI, I'm using these plugins:
+plugins=(vi-mode git brew ruby gem macports github osx rvm history-substring-search)",sunaku/history,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/2650#issuecomment-40838631,branch_name,"Not exactly.. Maybe you were still on your patch-1 branch when you did something else, and then those three extra patches from two other people made their way into this PR. I suggest you reset to the time when you created this branch and redo the changes + a single commit, then force push the branch to your repo.
+Otherwise, closing this PR and creating a new one from a clean branch with just that one exclude-dir commit might be easier ;)",patch-1,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/2827#issuecomment-44589056,branch_name,This belongs in my other super PR — @yachi should be sending a PR to my plugin-git branch anytime soon.,plugin-git,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/9935#issuecomment-863556948,branch_name,"I believe this PR is a step backwards compared to the usefulness this plugin has in its current state on the master branch.
+There are multiple other plugins that take care of setting the PATH so the user doesn't have to mess around with it. And at least for me, this has always worked - like magic. All my shells, interactive or not, behave as I expect them to. I do not have a .profile or .zprofile in my HOME. I do have a /etc/zprofile that calls path_helper on macOS. Maybe thats all we need to be happy.",master,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/9676#issuecomment-784004442,branch_name,"glom is supposed to list the branch commit since the main branch. It looks like the $(git_main_branch) returned nothing, making it behave like glo.",main,
+facebook/react,https://github.com/facebook/react/issues/11347#issuecomment-713669852,branch_name,"I also have WIP branch of Skate implementing both of what has been referred to as deep and shallow SSR, specifically for React. The learnings from this work thus far, are that you can't have a single JSX wrapper for all libraries if you want to do deep SSR because each library is dependent on their own APIs and algorithms for doing so. (For context, Skate has a core custom element part of its library and small layers built to integrate each popular library on the market to make consumption and usage consistent across the board.)",WIP,just extracted relevant text
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318673559,branch_name,"@gaearon i'll do one better, i'll make a staging branch of my app with it. give me ~10m",staging,
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318889199,branch_name,Reproducible minimal example: https://github.com/MichalZalecki/react-boilerplate-lite/tree/react-fiber (note react-fiber branch),react-fiber,just extracted relevant text
+facebook/react,https://github.com/facebook/react/issues/2127#issuecomment-216318529,branch_name,"@isiahmeadows FYI, Mithril's rewrite branch does support fragments.
+@spicyj You're welcome to take a look at the implementation[1][2] and tests[1][2] if you aren't already following it. The whole diff engine is only about 400 LOC, so it should hopefully be easy to follow",rewrite,
+facebook/react,https://github.com/facebook/react/issues/8854#issuecomment-292595988,branch_name,"@gaearon Right now it's just in our 15.5-dev branch. Haven't decided where it should live. I'm cool with either leaving it in the React repo for now, or moving it to its own repo. Any preference?",15.5-dev,
+facebook/react,https://github.com/facebook/react/issues/8854#issuecomment-301439431,branch_name,Please file an issue in this repo. The module itself is in the 15-stable branch (since we don't plan further development).,15-stable,
+facebook/react,https://github.com/facebook/react/pull/8589#issue-196069178,branch_name,"@aweary Should we start working from a branch other than master? I can't do that, but I'd be happy to adjust the base of this PR to a browser-quirks (or whatever) branch on the main repo.",master,
+facebook/react,https://github.com/facebook/react/pull/8589#issue-196069178,branch_name,"@aweary Should we start working from a branch other than master? I can't do that, but I'd be happy to adjust the base of this PR to a browser-quirks (or whatever) branch on the main repo.",browser-quirks,
+facebook/react,https://github.com/facebook/react/pull/22184#issuecomment-970533253,branch_name,"Here is the output with the current state of this PR (Disclaimer that I couldn't get the main branch of custom-elements-everywhere to build, this is based on a commit in that repo 11 months ago):",main,
+facebook/react,https://github.com/facebook/react/pull/5746#issuecomment-193472717,branch_name,"As per conversation with Sebastian, going to tentatively accept. We will sync with a few people internally to let them know that this change is coming down the pipeline, and push to www early in the week to maximize internal testing and make sure we're not breaking things.
+@jquense can you fix the minor unit test failure?
+@spicyj can you take a glance, and flag anything that you think would be a show stopper here?
+Note to self: verify that we've cut v15 branch before merging.",v15,
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-532646048,branch_name,"@elevatebart As far as I know, there is no standard ways for documenting source code and every library provider is writing their own generator at the moment. Just 2 weeks ago quasar has merged PR to include web-types (quasarframework/quasar#4749) and the feature should be released soon (dev branch was merged yesterday). Bootstrap-vue and vuetify have opened PRs to generate web-types. On my side I've written a generic generator which extracts information during runtime and combines it with static code analysis (https://github.com/JetBrains/web-types/tree/master/scripts/vue), which is used for extracting web-types for older versions of libraries already published on NPM. There are still some missing pieces of information in the format (e.g. JetBrains/web-types#7) and thanks to reports from the community the format is being improved.",dev,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/2873#issue-154817717,branch_name,"General Notes
+A checked item means it has been implemented in the 2.0 development branch.
+Features subject to change during development.
+The breaking change list is not guaranteed to be complete during development.
+There are some upgrade tips at the end.",development,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/96#issuecomment-37565565,branch_name,"@bobyrizov v-if has been completely rewritten in latest dev branch. Tested with latest commit and the fiddle is working correctly - wait for the v0.10 release!
+Also - in v0.10 you can dynamically resolve components (e.g. v-component=""{{type}}""), so it's actually not necessary to use v-if like that anymore.",dev,
+vuejs/vue,https://github.com/vuejs/vue/issues/478#issuecomment-116599708,branch_name,"I'm ready to work on it some more to make it usable for everyone, and basically that's my business too. As for now i've done some basic transformations to make it more TypeScript-ish, and removed the clone() part as it was introducing maximum call stack size exceeded error and basically i'm not sure if that was necessary anyway?
+P.S. Wouldn't it be better if you provide write access to vue-class-component for everyone, just not for the master branch, so one can contribute - to such a small and ""example style"" repo - without the need to fork?",master,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/78#issue-27156996,branch_name,"Tooling
+Chrome dev tools extension ✓
+CSP-compliant build ✓ (See csp branch)
+CommonJS-based build setup ✓
+Browserify + Vueify ✓
+Webpack + vue-loader ✓
+Scoped CSS (WIP)
+Server-side rendering
+Starter Kit",csp,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/1988#issuecomment-402956933,branch_name,"I probably don't think so. We are already working on the 2.*-next experimental branch to the official branch, which will use ES6 Proxies to implement Reactivity. This hack, official or not, would not work with that branch since there won't be any __ob__ property, for example.",2.*-next,
+vuejs/vue,https://github.com/vuejs/vue/pull/6856#issue-266835729,branch_name,"The PR fulfills these requirements:
+It's submitted to the dev branch for v2.x (or to a previous version branch), not the master branch
+When resolving a specific issue, it's referenced in the PR's title (e.g. fix #xxx[,#xxx], where ""xxx"" is the issue number)
+All tests are passing: https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md#development-setup
+New/updated tests are included",dev,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/pull/6856#issue-266835729,branch_name,"The PR fulfills these requirements:
+It's submitted to the dev branch for v2.x (or to a previous version branch), not the master branch
+When resolving a specific issue, it's referenced in the PR's title (e.g. fix #xxx[,#xxx], where ""xxx"" is the issue number)
+All tests are passing: https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md#development-setup
+New/updated tests are included",master,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/pull/5887#issuecomment-322519168,branch_name,"Hi, @DanielRosenwasser When I clone your branch vue-router It seems not work. It took me a day to find out why.Fortunately, I found it.
+This is not sure of the return value。
+This is the right to return to rewrite.
+I just started to learn Vue recently, do not know to rewrite the right.
+That branch, I can't open an issue, and that's relevant, so I submitted it here.",vue-router,
+vuejs/vue,https://github.com/vuejs/vue/pull/4652#issuecomment-283182944,branch_name,Resolved merge conflicts with current dev branch.,dev,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-12411416,branch_name,"@mdo said:
+you don't need to upgrade to every version. If your project doesn't have clear benefits to using v3, don't try to upgrade it.
+@Yohn said:
+I do have one question tho, is 3.0 going to following 2.3? or are there plans to do a 2.4? I can see the minor releases after 2.3 like 2.3.1 and 2.3.2 if needed
+Are there any plans for upgrading (I mean only bugfixing, of course) 2.x branch after 3.0 release?",2.x,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-14815577,branch_name,The pre-release docs up at rc.getbootstrap.com just disappeared in the last day or two... any chance they'll reappear soon for folks developing with the 3.0.0-wip branch?,3.0.0-wip,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-16331020,branch_name,"@AndrewDryga You don't know what is WIP development? WIP is without alpha, beta, gama and delta, it's just development branch for one release.",development,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-19309374,branch_name,"Where are the 3.x docs? I've been really excited to contribute to the project but can't figure out how to get it going. I've built and run the docs in the gh-pages and the 3.0.0-wip branches and they both point to the 2.3.x version. I checked out the commit @mdo pushed and was able to get to them that way but it doesn't look like that ever got merged... Am I missing something here?
+Thanks for all the awesome help btw.",gh-pages,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-19309374,branch_name,"Where are the 3.x docs? I've been really excited to contribute to the project but can't figure out how to get it going. I've built and run the docs in the gh-pages and the 3.0.0-wip branches and they both point to the 2.3.x version. I checked out the commit @mdo pushed and was able to get to them that way but it doesn't look like that ever got merged... Am I missing something here?
+Thanks for all the awesome help btw.",3.0.0-wip,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-20050228,branch_name,"@ollym Look at tasks. 28 more. Remove docs from main branch, fix JS (global and modals), fix LESS styles (forms and button groups) and improve customizer. 😄",main,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/23586#issue-251560076,branch_name,"Demo:
+https://deploy-preview-23586--twbs-bootstrap.netlify.com/
+If you want to help us do not hesitate to create a PR which targets this branch v4-without-jquery.",v4-without-jquery,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/23586#issuecomment-465740806,branch_name,"Thanks to everyone!
+I hope we didn't break a lot of things, we tried our best. That being said, please try the master branch and feel free to provide any doc tweaks or bugfixes.
+We'll make a new issue with the remaining TODO tomorrow.",master,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/23586#issuecomment-466279501,branch_name,"Congratulations, great job. I'm doing tests and I see that the branch ""v5-dev-jo-eslint-airbnb"" directly import plugins individually of v5-dev-jo-eslint-airbnb/src/js/ works without jquery in v4-dev, the question is if this is going to join the master. If this will only be available in v5, it is safe to copy the javascript files to v4.",v5-dev-jo-eslint-airbnb,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/23586#issuecomment-475885309,branch_name,"You shouldn't use something which is in development on production, however dangerous it might be.
+That being said, you can always experiment with the master branch. Just keep in mind, it's not done yet.",master,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-495273718,branch_name,"Let’s recap:
+Flutter will support fat APKs via flutter build apk ....
+If you want to try this feature right now try flutter build appbundle in the master branch. If app bundles don’t work for your use case, then (1) should cover the remaining cases.",master,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-497118805,branch_name,"@Hixie There is Another Problem Arose here
+app bundle by latest flutter (master as of now) not generating x86 , x86_64 versions
+Files produced by master branch",master,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/16604#issuecomment-386561057,branch_name,Totally agree. This is a major regression. Not long ago I wrote in a blog post how happy I was that Flutter tooling just worked compared to Xamarin but now it's almost worse. Hot reload too often doesn't work on current dev and Master branches,dev,
+flutter/flutter,https://github.com/flutter/flutter/issues/16604#issuecomment-386561057,branch_name,Totally agree. This is a major regression. Not long ago I wrote in a blog post how happy I was that Flutter tooling just worked compared to Xamarin but now it's almost worse. Hot reload too often doesn't work on current dev and Master branches,Master,
+flutter/flutter,https://github.com/flutter/flutter/issues/16604#issuecomment-386665923,branch_name,"I'm not able to repro this neither from IJ, nor from command line(on physical Android device).
+I'm starting Flutter Gallery, making simple change(lib/gallery/app.dart:128 'Flutter Gallery' -> 'Updated Flutter Gallery'), hot-reload, confirm I see the change(title of the app changes), stop the app, start it again, still see the change.
+This is on 24.0.1 of Flutter IJ plugin, master branch of Flutter:
+Flutter 0.3.6-pre.113 • channel master • git@github.com:aam/flutter.git Framework • revision d820e5f3b1 (12 hours ago) • 2018-05-03 22:27:29 -0700 Engine • revision e976be13c5 Tools • Dart 2.0.0-dev.53.0.flutter-e6d7d67f4b",master,
+flutter/flutter,https://github.com/flutter/flutter/issues/16604#issuecomment-400545093,branch_name,I was also experiencing this issue on the beta and master branches of Flutter.,beta,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/16604#issuecomment-400545093,branch_name,I was also experiencing this issue on the beta and master branches of Flutter.,master,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/16604#issuecomment-413175659,branch_name,Yes please try that. Also you could try to switch to dev or master branch,dev,
+flutter/flutter,https://github.com/flutter/flutter/issues/16604#issuecomment-413175659,branch_name,Yes please try that. Also you could try to switch to dev or master branch,master,
+flutter/flutter,https://github.com/flutter/flutter/issues/31922#issuecomment-495494524,branch_name,"@blasten - could you please provide a kind of instructions how to use it from within Android Studio?
+Here is my current flutter config:
+Doctor summary (to see all details, run flutter doctor -v):
+[√] Flutter (Channel stable, v1.2.1, on Microsoft Windows [Version 10.0.17763.503], locale en-US)
+[√] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+[√] Android Studio (version 3.4)
+When this change will go to the stable branch?",stable,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-426320083,branch_name,"Simply amazing, I'm actually running a copy from the swca branch to have this feature. I'd really like to see this in the next (unstable) vscode release",swca,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-504403158,branch_name,"Unfortunately after long evaluation of transparency PR I've came to conclusion that the performance penalty it brings upon my 4-year old laptop is unbearable, so for now I'm stopping any work on that. Also I tried to rebase it on latest vscode version (1.35.1) and couldn't make it.
+I renamed current branch (with the PR and my changes incorporated) to transparency and will use master branch for my tweaks only.",master,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/97272#issuecomment-832975924,branch_name,"@isidorn I've merged the latest main into my fork and topic branch, resolved the conflicts, and tested the change. I haven't reviewed comparers.ts yet to see if I can make it any more concise. I'll take a look at that next.",main,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/97272#issuecomment-832975924,branch_name,"@isidorn I've merged the latest main into my fork and topic branch, resolved the conflicts, and tested the change. I haven't reviewed comparers.ts yet to see if I can make it any more concise. I'll take a look at that next.",topic,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/66418#issuecomment-500104285,branch_name,"@jrieken Great work. The most astonishing point is that this is so fast and lightweight.
+I have a question. Insets disappear when we change tabs. Is this an intended behavior?""
+I am looking forward to this feature coming to the stable branch.",stable,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/66418#issuecomment-538185698,branch_name,@dddom check out this branch by @rdeline https://github.com/rdeline/vscode-python/tree/inset-results,https://github.com/rdeline/vscode-python/tree/inset-results,
+microsoft/vscode,https://github.com/microsoft/vscode/issues/8017#issuecomment-499760504,branch_name,"@eamodio can you elaborate? I'm able to click on the twisties and other commands
+Edit: Nevermind, I see what you mean with the compare branch. There appears to be some weird bug where changing the background-image on a pseudo element renders it invisible, making it un-clickable. Going to have to investigate this a bit more since this doesn't happen anywhere else. Can you point to where this is on the GitLens repo?",compare,
+microsoft/vscode,https://github.com/microsoft/vscode/issues/178#issuecomment-335231776,branch_name,"Sure, it's all in the joh/feco-branch. There is a new decoration service which uses providers for the actual data. On the consuming side is the file label that we use for rendering file names",joh/feco,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/issues/178#issuecomment-337977474,branch_name,"@jrieken Do you have a Slack group, or somewhere else to discuss this issue? I can help :) I was able to pull, dev, and debug the current changes from the master branch. I fixed the ""added"" files showing as ""U"", and even added ""staged"" support. Since it was my first time in the project, I am resetting it back to master and doing it over again. I made a bunch of changes, and want to go in like a surgeon and not a nuke.",master,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/pull/35956#issuecomment-347232930,branch_name,"@melvin0008 you can send PR against vscode-docs vnext branch and add this to Notable Changes, write it like #pr-number: short-description, similar to others https://github.com/Microsoft/vscode-docs/blob/vnext/release-notes/v1_19.md#notable-changes . Thanks for your help!",vnext,
+angular/angular.js,https://github.com/angular/angular.js/issues/17004#issuecomment-595132375,branch_name,A security flaw is detected in the 1.7.x branch of the framework,1.7.x,
+angular/angular.js,https://github.com/angular/angular.js/issues/16744#issue-373986810,branch_name,So if you'd like to test this out with angularJS you'll need to work off of the master branch in the jasmine project.,master,
+angular/angular.js,https://github.com/angular/angular.js/issues/15201#issuecomment-250722286,branch_name,"You are apparently using Angular v1.5.8, but the docs you mention are from the latest code on the master branch. The v1.5.8 docs can be found here and they should be consistent with the behavior in the example.",master,
+angular/angular.js,https://github.com/angular/angular.js/issues/15293#issuecomment-254628239,branch_name,"So, this is indeed a breaking change, but it is documented and has not happened in 1.5.x (which is the current stable branch). I can think of the following action items:",1.5.x,
+angular/angular.js,https://github.com/angular/angular.js/issues/15293#issuecomment-255150415,branch_name,"release. In order to update the docs on the website for a branch (e.g. 1.3.x), we need to make a new release for that branch. Since versions 1.3.x, 1.4.x are not maintained anymore, we are not releasing new versions for them (unless there is a really important reason).",1.3.x,
+angular/angular.js,https://github.com/angular/angular.js/issues/15348#issue-186668997,branch_name,"Also, I have tested it with 1.6.0.rc-0 and current master branch (HEAD was 3b7f29ff63e8bf02327a1430dcc2a4c83915a206) without success - issue still reproduces.",master,
+angular/angular.js,https://github.com/angular/angular.js/issues/15348#issue-186668997,branch_name,"Also, I have tested it with 1.6.0.rc-0 and current master branch (HEAD was 3b7f29ff63e8bf02327a1430dcc2a4c83915a206) without success - issue still reproduces.",1.6.0.rc-0,
+angular/angular.js,https://github.com/angular/angular.js/issues/15639#issue-202935037,branch_name,"Google Chrome on Windows 7 64bit
+Yes, without ngAria
+I am stuck with using Angular 1.3 branch line",1.3,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/3544#issuecomment-720019588,branch_name,"vue-class-store
+
+vue3 branch: feature/vue-3
+
+To install it",feature/vue-3,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/3544#issuecomment-751243268,branch_name,The library vue-advanced-cropper for cropping images is available for Vue 3 now (vue-next branch).,vue-next,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/3544#issuecomment-921693434,branch_name,"Can confirm Quasar v2 (using Vue3) is stable and marked as latest on NPM.
+The linked vue3-work branch has been deleted so it now returns a 404 error",vue3-work,
+moby/moby,https://github.com/moby/moby/issues/43038#issue-1059277072,branch_name,"Change into the root of the moby-fork repository.
+And change to dry-run-test` branch
+perform the ""make BIND_DIR=. shell"" command to build a development environment image and run it in a container",dry-run-test,
+moby/moby,https://github.com/moby/moby/issues/42753#issuecomment-903291097,branch_name,Here is my docker version (docker-cli is the latest build from the master branch),master ,
+moby/moby,https://github.com/moby/moby/issues/41827#issue-771588562,branch_name,It also reproduces with docker built from master git branch.,master ,
+moby/moby,https://github.com/moby/moby/issues/41044#issuecomment-635882764,branch_name,"Opened moby/buildkit#1514. After that's merged, it needs to be vendor in the 19.03 branch in this repository to resolve the issue for 19.03",19.03,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/11705#issuecomment-921807559,branch_name,I've created issue_11705_with_example branch which contains HelloWorld UWP C# MSIX application which reads its module settings and is installed along PowerToys.,issue_11705_with_example,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/11641#issuecomment-856180627,branch_name,Kicking off a test build with a 0.0.2 against the https://github.com/microsoft/PowerToys/tree/fixingSsigningDlls branch,https://github.com/microsoft/PowerToys/tree/fixingSsigningDlls,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/10779#issuecomment-821968195,branch_name,Same for me in master-branch yesterday. I tried the setting debug. I tried to get detailed logs because settings didn't open.,master,How to handle multi-worded stuff?
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/11059#issue-873920202,branch_name,"When building the local clone of ""UnitConverter plugin"" branch which is up to date against master I get many unexpected warnings for KBM, SvgPreviewHandler and runner. The two warning on PowerLauncher are normal as I know.",UnitConverter plugin,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/11077#issue-874337090,branch_name,FZ should run in its own process PowerToys.FancyZones.exe. create the future/fancyzones branch,future/fancyzones,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/11078#issue-874344288,branch_name,create feature/shortcutguide working branch,feature/shortcutguide,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/872#issuecomment-562259217,branch_name,"we may have to choose a different name, since we are currently using dev/username/feature branches and because of that we can't create a dev branch.",dev/username/feature,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/872#issuecomment-562259217,branch_name,"we may have to choose a different name, since we are currently using dev/username/feature branches and because of that we can't create a dev branch.",dev,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/872#issuecomment-562259217,branch_name,"We can call the current public release release or stable so we can start using this new approach with minimum effort (renaming the dev/* branches would require to much work, especially because dev/enricogior/telemetry was promoted to be the branch for the release build).",dev/enricogior/telemetry,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/872#issuecomment-562271991,branch_name,We can also create a release branch for each release and name it release-x.y.z,release-x.y.z,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/91135#issue-1060431731,branch_name,I tried compiling the post-03 branch of blog os with cg_clif to test inline assembly support @nbdd0121 implemented in bjorn3/rustc_codegen_cranelift#1206.,post-03,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/91092#issue-1059222993,branch_name,"The two-source-file tree mentioned up above (including the script I run to repeat the test until a failure happens), is on a bug-report branch here: https://github.com/scole66/rust-e262/tree/reduction-for-bugreport",https://github.com/scole66/rust-e262/tree/reduction-for-bugreport,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/89725#issue-1021889057,branch_name,"Hi all, I'm looking to work on the std lib (and I've read the rustc-dev docs). I found when cloning the rust source and running tests on library/alloc against the master branch there is a compiler panic.",master,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/89725#issuecomment-940187415,branch_name,"Thanks for the report! I believe this is a duplicate of #89725, so closing in favor of that.
+There is likely a fix that is missing in the beta compiler that is in the latest master branch. However, I wasn't able to narrow it down to a specific PR.",master,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28742#issue-1058122681,branch_name,"Previously (I don't remember exactly, but possibly on 2.4.x branch) — this graph was continuous.",2.4.x,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28595#issuecomment-966219240,branch_name,Thanks. That's interesting. It should work with both 2.4.x and 2.5.x as the same fixes were made in each branch. ,2.4.x,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28595#issuecomment-966219240,branch_name,Thanks. That's interesting. It should work with both 2.4.x and 2.5.x as the same fixes were made in each branch. ,2.5.x,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28045#issuecomment-922118917,branch_name,"In 2.6.x, we might be able to make use of the support added in #27840 to sanitize data from the spring.application.json property source if the key matches the configured keysToSanitize or the default ones.",2.6.x,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/26255#issue-868890720,branch_name,"Following the rename of the default branch to main, there are some changes to make in the documentation across all maintained branches.",main,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/26767#issuecomment-876755922,branch_name,@wilkinsona Aren't those changes merged to main usually?,main,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/26767#issuecomment-876954237,branch_name,@dreis2211 we don't merge dependency upgrade but run bomr on each branch. We're going to apply that soon. Does that block you from experimenting in 2.5.x ?,2.5.x,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5776#issue-150555970,branch_name,"The sample is hosted on my github, there is a 1.4-upgrade branch to taste Spring Boot 1.4.0M2.",1.4-upgrade,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5775#issue-150554219,branch_name,There is a 1.4-upgrade branch in my sample codes.,1.4-upgrade,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5633#issue-146808943,branch_name,"I am following the instructions under ""Building reference documentation"" in the README of the ""Master"" branch at:",Master,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5363#issue-139343245,branch_name,"The master branch is what I had to do in order to get configs to be picked up for ""test"" profile.",master,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5363#issue-139343245,branch_name,"However in this branch:
+https://github.com/khoubyari/spring-boot-rest-example/tree/upgrade-breaks-config
+
+I kept the config the way it was all through my 1.2.x deployments.",https://github.com/khoubyari/spring-boot-rest-example/tree/upgrade-breaks-config,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5363#issuecomment-193894857,branch_name,"In the ""upgrade-breaks-config"" branch, By simply changing the Spring Boot version to 1.2.x in the pom file, I can see that the configurations from ""default"" gets inherited by ""test"" unless ""test"" actually overrides them",upgrade-breaks-config,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/4003#issuecomment-142439017,branch_name,It looks like a Reactor issue. I created a branch with a more focused example that uses only the Reactor TcpClient and it has the same behavior: https://github.com/rstoyanchev/sb-1.2-websocket/tree/client-app,https://github.com/rstoyanchev/sb-1.2-websocket/tree/client-app,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/26684#issuecomment-700663832,branch_name,I made a branch doing that as an alternative approach :2f56e2c https://github.com/gilou/youtube-dl/tree/data_approach,https://github.com/gilou/youtube-dl/tree/data_approach,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/26684#issuecomment-706623406,branch_name,That one: https://github.com/gilou/youtube-dl/tree/data_approach,https://github.com/gilou/youtube-dl/tree/data_approach,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25734#issuecomment-665059728,branch_name,visit https://github.com/xarantolus/youtube-dl switch to branch fixYTSearch code > download zip > https://github.com/xarantolus/youtube-dl/archive/fixYTSearch.zip,fixYTSearch,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25734#issuecomment-686455736,branch_name,I can pass you the entire page source if that is helpful? I did try using older versions of the extraction method (from the master branch of youtube-dl/youtube-dl but that hasnt worked since your original changes were required.,master,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-663840555,branch_name,"@alexmerkel Makes sense. I would issue a new pull request but the issue is that your fix hasn't been merged with the master branch yet, and adding a fix for cover art visibility on some Windows applications doesn't make sense because right now the thumbnails don't even get added to the file (due to being WebP). In other words, with the current youtube-dl code, adding -id3v2_version 3 has no benefit.",master,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-663840555,branch_name,"I guess I need to wait for your fix to be merged with the master branch, which is taking a while.",master,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-663924857,branch_name,"If possible, you should remove/decline my suggested changes. I don't want anything delaying this fix being merged to the master branch. If/when this fix gets merged, I may submit a pull request which passes -id3v2_version 3 to FFmpeg so that the cover art can be seen when using Groove Music or Windows Media Player.",master,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/11272#issuecomment-274903673,branch_name,"After some cool-off time things start to catch up on the jsbuilt-ins branch. Not quite ready to merge, but I'd like to make a friendly reminder that, even if a bit slower and not pushing on this branch, I'm still working on this.",jsbuilt-ins,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/13600#issuecomment-616124774,branch_name,@inks007 I'm still getting the same result. Make still appears to be compiling the Master branch,Master,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/12754#issuecomment-329622869,branch_name,@dstftw what exactly did you merge? I can't see any changes from this PR in master branch.,master,
+symfony/symfony,https://github.com/symfony/symfony/pull/3378#issuecomment-5362938,branch_name,@Tobion: I never said it will be in 2.1. The plan is to create a 2.1 branch soon so that we can continue working on 2.2.,2.1,
+symfony/symfony,https://github.com/symfony/symfony/pull/3378#issuecomment-5362938,branch_name,@Tobion: I never said it will be in 2.1. The plan is to create a 2.1 branch soon so that we can continue working on 2.2.,2.2,
+symfony/symfony,https://github.com/symfony/symfony/pull/3378#issuecomment-8850328,branch_name,@fabpot Is the actual code of this PR ok for you? And could we use this PR in the master branch?,master,
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"The fact that master is 5.2 is currently expressed through a branch alias, which wouldn't needed at all if the branch was named in the conventional way.",master,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"The fact that master is 5.2 is currently expressed through a branch alias, which wouldn't needed at all if the branch was named in the conventional way.",5.2,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"It is clearer to contributors what branch they are sending PRs to, rather than them mistaking master for latest stable (5.1) when it is actually the next upcoming minor series (5.2).",master,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"It is clearer to contributors what branch they are sending PRs to, rather than them mistaking master for latest stable (5.1) when it is actually the next upcoming minor series (5.2).",5.1,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"It is clearer to contributors what branch they are sending PRs to, rather than them mistaking master for latest stable (5.1) when it is actually the next upcoming minor series (5.2).",5.2,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"Possibly, as an interim, the master branch could be left around for a few months, and synced with 5.2 (to allow people to migrate if they have master or dev-master hard coded in various places).",master,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"Possibly, as an interim, the master branch could be left around for a few months, and synced with 5.2 (to allow people to migrate if they have master or dev-master hard coded in various places).",5.2,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issue-640837370,branch_name,"Possibly, as an interim, the master branch could be left around for a few months, and synced with 5.2 (to allow people to migrate if they have master or dev-master hard coded in various places).",dev-master,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issuecomment-645964084,branch_name,"In an ideal situation, GitHub should add a way to link to ""the default branch"" independently of its name (e.g. https://github.com/symfony/symfony/tree/_default will give you 5.2).",https://github.com/symfony/symfony/tree/_default,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issuecomment-645964084,branch_name,"In an ideal situation, GitHub should add a way to link to ""the default branch"" independently of its name (e.g. https://github.com/symfony/symfony/tree/_default will give you 5.2).",5.2,just extracted relevant text
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issuecomment-704108773,branch_name,"WIP, the 5.x has just been created and the master branch will be removed in a few weeks. Thanks all for the discussion.",5.x,
+symfony/symfony,https://github.com/symfony/symfony/issues/37331#issuecomment-704108773,branch_name,"WIP, the 5.x has just been created and the master branch will be removed in a few weeks. Thanks all for the discussion.",master,
+angular/angular.js,https://github.com/angular/angular.js/issues/17117#issuecomment-789719709,file_name,"I experimented with moving updating the window name after the browser has navigated to the new URL (as shown below) and (while it worked fine for most tests) it did cause some test (from the angular/angular.js repo) to fail. I am not sure whether there is a more reliable way to execute some JS code after the new page has been loaded but before any JS (including AngularJS) has been executed.
+
+Modified protractor/lib/browser.ts:",protractor/lib/browser.ts,
+angular/angular.js,https://github.com/angular/angular.js/issues/16707#issuecomment-428687611,file_name,So it appears that something in your code is trying to pass the return value from a call to minerr (e.g. this function https://github.com/angular/angular.js/blob/master/src/minErr.js#L101) across a thread boundary (hence the postmessage). It is not related to the ErrorConstructor.,https://github.com/angular/angular.js/blob/master/src/minErr.js,What to do with url files also filenames with lines of code in them?
+angular/angular.js,https://github.com/angular/angular.js/issues/17019#issuecomment-618718328,file_name,"To add possible locations where object handling is broken:
+Line 707 of ngModel.js (within commitViewValue() function)
+From:
+var viewValue = this.$viewValue;
+To:
+var viewValue = angular.copy(this.$viewValue);",ngModel.js,
+angular/angular.js,https://github.com/angular/angular.js/issues/15369#issuecomment-259424059,file_name,"Perhaps it is because we did not update the branchVersion in package.json to a version containing 1.6 yet because that would break the docs app, since 1.6.0-rc.0 is not yet on CDN?",package.json,
+angular/angular.js,https://github.com/angular/angular.js/issues/15369#issuecomment-259647646,file_name,"The latter should be the same as the version that is applied to the built library, but as you can see in the rc.0 folder, the version.json is correct, while the docs/versions-data.js is incorrect.",docs/versions-data.js,
+angular/angular.js,https://github.com/angular/angular.js/issues/15369#issuecomment-259647646,file_name,"The latter should be the same as the version that is applied to the built library, but as you can see in the rc.0 folder, the version.json is correct, while the docs/versions-data.js is incorrect.",version.json,
+angular/angular.js,https://github.com/angular/angular.js/issues/15369#issuecomment-260328795,file_name,See angular/code.angularjs.org#38 for the version-data.js update for code.angularjs.org,version-data.js,
+angular/angular.js,https://github.com/angular/angular.js/issues/17123#issue-853254493,file_name,"Here in MyService.service.js file it is giving error
+Unexpected token 'export'",MyService.service.js,
+vuejs/awesome-vue,https://github.com/mrdoob/three.js/issues/21075#issuecomment-759337938,file_name,This is definitely no bug in three.js. Also see the first comment of your stackoverflow post:,three.js,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/1288#issue-243228194,file_name,"File readme now become too big for editing.
+I think it's better to seperate base on category.
+And add navigation to main readme in each file.",readme ,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/3080#issuecomment-597140923,file_name,"@LinusBorg In relation to PR, we can use templates with checklist as I have done in the project https://github.com/post/post-static/blob/master/.github/pull_request_template.md",https://github.com/post/post-static/blob/master/.github/pull_request_template.md,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/2564#issuecomment-626243821,file_name,I did not make a pr but i created latest readme.md file @Scrum 10.05.2020 :,readme.md,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/2432#issue-365964460,file_name,"It's very hard to maintain file Readme.md with very long contents.
+Can we plan to refactoring this repo to be more easier to be added or updated in the future?",Readme.md,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/2432#issuecomment-426454068,file_name,"Just show the categories in readme.md, each categories will link to the .md file.",readme.md,
+moby/moby,https://github.com/moby/moby/issues/43019#issuecomment-969945214,file_name,"The cause of the issue is that runc loses overflowgid after calling setgroups(2)
+https://github.com/opencontainers/runc/blob/7c219d814fc5f5574a7aab836fb2b89e3c5d2dfd/libcontainer/init_linux.go#L380",https://github.com/opencontainers/runc/blob/7c219d814fc5f5574a7aab836fb2b89e3c5d2dfd/libcontainer/init_linux.go#L380,
+moby/moby,https://github.com/moby/moby/issues/43018#issue-1053456402,file_name,I am only able to create Log Group and Log Stream not able to send the container logs to it using moby/daemon/logger/awslogs/cloudwatchlogs.go With this as well. I am getting error for the first time if the log group doesn't exist even though it creates the Group after the error.,moby/daemon/logger/awslogs/cloudwatchlogs.go,
+moby/moby,https://github.com/moby/moby/issues/43018#issuecomment-968879815,file_name,"docker run does not use the logging-driver to read logs, it can configure the container to use a specific logging driver (such as awslogs), but the output that's printed is the output of the container's stdout/stderr. When running a container in the foreground, the CLI attaches to the container's output streams after starting the container; https://github.com/docker/cli/blob/b0343d9104a1794c3252fa45b985710d6b6afc05/cli/command/container/run.go#L151-L163",https://github.com/docker/cli/blob/b0343d9104a1794c3252fa45b985710d6b6afc05/cli/command/container/run.go#L151-L163,
+moby/moby,https://github.com/moby/moby/issues/43018#issuecomment-975408503,file_name,"If that does work, I'd recommend putting the daemon in debug mode ({""debug"": true} in the /etc/docker/daemon.json daemon configuration file. With debug mode enabled, you should be able to see the JSON of API requests that are made by the client to create the container; with that, you can compare between the API call made by the docker cli, and the API call made by your code.",/etc/docker/daemon.json,
+moby/moby,https://github.com/moby/moby/issues/43015#issue-1052897411,file_name,"Create a dockerfile with a symlink in parent path, for example:",dockerfile ,
+moby/moby,https://github.com/moby/moby/issues/43011#issue-1050479853,file_name,Furthermore it seems as though the effects are reversed when doing suid/sgid (https://github.com/torvalds/linux/blob/5147da902e0dd162c6254a61e4c57f21b60a9b1c/include/uapi/linux/personality.h#L27-L34),https://github.com/torvalds/linux/blob/5147da902e0dd162c6254a61e4c57f21b60a9b1c/include/uapi/linux/personality.h#L27-L34,
+moby/moby,https://github.com/moby/moby/issues/42953#issuecomment-950955756,file_name,"You can try running the check-config.sh script from https://github.com/moby/moby/blob/master/contrib/check-config.sh, which checks for some options (but not sure if it checks for this specific case).",check-config.sh,
+moby/moby,https://github.com/moby/moby/issues/42953#issuecomment-950955756,file_name,"You can try running the check-config.sh script from https://github.com/moby/moby/blob/master/contrib/check-config.sh, which checks for some options (but not sure if it checks for this specific case).",https://github.com/moby/moby/blob/master/contrib/check-config.sh,
+moby/moby,https://github.com/moby/moby/issues/41715#issuecomment-733976493,file_name,"Another option would be to build directly from a remote git repository and specify an (alternative) Dockerfile from stdin, however, unfortunately BuildKit currently does not support this option (see #38254)",Dockerfile ,
+moby/moby,https://github.com/moby/moby/issues/41519#issuecomment-716193996,file_name,"For me it's under bundles/cross/windows/amd64, two files: containerutility.exe and dockerd-SUFFIX.exe.",containerutility.exe,
+moby/moby,https://github.com/moby/moby/issues/41519#issuecomment-716193996,file_name,"For me it's under bundles/cross/windows/amd64, two files: containerutility.exe and dockerd-SUFFIX.exe.",dockerd-SUFFIX.exe,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/11077#issue-874337090,file_name,FZ should run in its own process PowerToys.FancyZones.exe. create the future/fancyzones branch,PowerToys.FancyZones.exe,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/11077#issue-874337090,file_name,update .pipelines/pipeline.user.windows.yml for signing new binaries,.pipelines/pipeline.user.windows.yml,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/89563#issuecomment-934608385,file_name,@ms140569 This is probably an LLVM assertion failure. Could you try to obtain a backtrace from the coredump file (e.g. using gdb)?,coredump ,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/91092#issue-1059222993,file_name,This really feels like whichever thread is controlling writes to the profraw file is missing messages. Queue overrun maybe? (I haven't looked.),profraw,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/91092#issue-1059222993,file_name,"I have a large-ish project with ~6000 testcases, and for a long time now, code coverage has been hit-or-miss. The issue is that some of the test cases don't seem to get their data included in the profraw files, and so don't show up as having an effect on coverage. The unrecorded tests seem to be essentially random, but with thousands of tests, single-digit-percentage failures are noticed on every test run.",profraw,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90703#issuecomment-963489202,file_name,"I also tested with a main.rs file, and I mean it does work:",main.rs,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90702#issuecomment-967762083,file_name,So the file that you likely want to start looking at is https://github.com/rust-lang/rust/blob/9f6ca7482ca885bca14ba6870ed39a783ab939b5/compiler/rustc_resolve/src/lib.rs,https://github.com/rust-lang/rust/blob/9f6ca7482ca885bca14ba6870ed39a783ab939b5/compiler/rustc_resolve/src/lib.rs,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90702#issuecomment-973591306,file_name,extern crates are collected in CStore which maps CrateNums to CrateMetadata which in turn is a reference into the actual binary blob of an rmeta file. ,rmeta ,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90694#issue-1047497015,file_name,I'm having troubles building rust using the user preset from x.py,x.py,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90618#issue-1046011712,file_name,"That is, the inc1 file gets included correctly, but the inc2 file loses its second line. This bug only seems to happen if the last line is a single character.",inc1,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90618#issue-1046011712,file_name,"That is, the inc1 file gets included correctly, but the inc2 file loses its second line. This bug only seems to happen if the last line is a single character.",inc2,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90393#issuecomment-956149218,file_name,One idea would be to build llvm locally on your machine by putting this in your config.toml file,config.toml,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90393#issuecomment-956267113,file_name,It has failed (after setting in config.toml were applied:,config.toml,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28045#issuecomment-922118917,file_name,"In 2.6.x, we might be able to make use of the support added in #27840 to sanitize data from the spring.application.json property source if the key matches the configured keysToSanitize or the default ones.",spring.application.json,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/26332#issuecomment-830328728,file_name,We planned to link in both directions - from CONTRIBUTING.adoc to the wiki page and from the wiki page to CONTRIBUTING.adoc.,CONTRIBUTING.adoc,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5633#issue-146808943,file_name,"I am following the instructions under ""Building reference documentation"" in the README of the ""Master"" branch at:",README,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5363#issue-139343245,file_name,"I basically had to copy and paste everything from ""default"" profile section to ""test"" profile section in this file:
+https://github.com/khoubyari/spring-boot-rest-example/blob/master/src/main/resources/application.yml",https://github.com/khoubyari/spring-boot-rest-example/blob/master/src/main/resources/application.yml,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/5363#issue-139343245,file_name,"The ""test"" section used to inherit from the ""default"" section:
+https://github.com/khoubyari/spring-boot-rest-example/blob/upgrade-breaks-config/src/main/resources/application.yml",https://github.com/khoubyari/spring-boot-rest-example/blob/upgrade-breaks-config/src/main/resources/application.yml,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/4003#issuecomment-142439017,file_name,This is the output from running ClientApp:,ClientApp,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/16544#issue-290123504,file_name,"npm run unpack extracts challenges into separate files for easier viewing and editing. The files are .gitignored and will not be checked in, and all mongo seed importing will keep using the existing system; this is essentially a tool for editing challenge.json files. These HTML files are self-contained and run their own tests -- open a JS console to see the test results.",challenge.json,just extracted paragraph
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/16544#issuecomment-375914706,file_name,They say it was fixed last summer; I didn't want to update the version of eslint in package.json but if @raisedadead says it's okay then I can add that to this branch too,package.json,just extracted relevant sentence
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/40518#issue-773051766,file_name,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the master branch of freeCodeCamp.
+All the files I changed are in the same world language, for example: only English changes, or only Chinese changes, etc.
+I am not sure why this has not been implemented yet, as the groundwork was already there. So, this PR just adds any assertion errors to the user-visible console.
+The reason the .md file is included in this PR, is to, hopefully, show a best case scenario of, well-written tests, combined with decent error handling - How informative it can be.",index.md,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issue-992956585,file_name,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the main branch of freeCodeCamp.
+I have tested these changes either locally on my machine, or GitPod.
+Closes #43427",index.md,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issuecomment-920293222,file_name,"@ieahleen I have a doubt in this file - /curriculum/challenges/english/03-front-end-development-libraries/sass/store-data-with-sass-variables.md
+Not sure what changes should I make here.",/curriculum/challenges/english/03-front-end-development-libraries/sass/store-data-with-sass-variables.md,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issuecomment-930045982,file_name,"You would need to add redirects to this file: https://github.com/freeCodeCamp/client-config/blob/master/serve.json
+This is not ideal but will do.",https://github.com/freeCodeCamp/client-config/blob/master/serve.json,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-877635558,file_name,"Hi, Is it too late to say I will migrate below files? @ojeytonwilliams
+/client/src/templates/Introduction/Intro.js
+/client/src/templates/Introduction/SuperBlockIntro.js
+/client/src/components/formHelpers/Form.js
+/client/src/components/formHelpers/Form.test.js
+/client/src/components/formHelpers/FormFields.js
+/client/src/components/formHelpers/FormValidators.js
+/client/src/components/formHelpers/index.js
+I don't see them assigned to anyone. So will be happy to help.",/client/src/templates/Introduction/Intro.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-877635558,file_name,"Hi, Is it too late to say I will migrate below files? @ojeytonwilliams
+/client/src/templates/Introduction/Intro.js
+/client/src/templates/Introduction/SuperBlockIntro.js
+/client/src/components/formHelpers/Form.js
+/client/src/components/formHelpers/Form.test.js
+/client/src/components/formHelpers/FormFields.js
+/client/src/components/formHelpers/FormValidators.js
+/client/src/components/formHelpers/index.js
+I don't see them assigned to anyone. So will be happy to help.",/client/src/templates/Introduction/SuperBlockIntro.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-877635558,file_name,"Hi, Is it too late to say I will migrate below files? @ojeytonwilliams
+/client/src/templates/Introduction/Intro.js
+/client/src/templates/Introduction/SuperBlockIntro.js
+/client/src/components/formHelpers/Form.js
+/client/src/components/formHelpers/Form.test.js
+/client/src/components/formHelpers/FormFields.js
+/client/src/components/formHelpers/FormValidators.js
+/client/src/components/formHelpers/index.js
+I don't see them assigned to anyone. So will be happy to help.",/client/src/components/formHelpers/Form.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-877635558,file_name,"Hi, Is it too late to say I will migrate below files? @ojeytonwilliams
+/client/src/templates/Introduction/Intro.js
+/client/src/templates/Introduction/SuperBlockIntro.js
+/client/src/components/formHelpers/Form.js
+/client/src/components/formHelpers/Form.test.js
+/client/src/components/formHelpers/FormFields.js
+/client/src/components/formHelpers/FormValidators.js
+/client/src/components/formHelpers/index.js
+I don't see them assigned to anyone. So will be happy to help.",/client/src/components/formHelpers/Form.test.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-877635558,file_name,"Hi, Is it too late to say I will migrate below files? @ojeytonwilliams
+/client/src/templates/Introduction/Intro.js
+/client/src/templates/Introduction/SuperBlockIntro.js
+/client/src/components/formHelpers/Form.js
+/client/src/components/formHelpers/Form.test.js
+/client/src/components/formHelpers/FormFields.js
+/client/src/components/formHelpers/FormValidators.js
+/client/src/components/formHelpers/index.js
+I don't see them assigned to anyone. So will be happy to help.",/client/src/components/formHelpers/FormFields.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-877635558,file_name,"Hi, Is it too late to say I will migrate below files? @ojeytonwilliams
+/client/src/templates/Introduction/Intro.js
+/client/src/templates/Introduction/SuperBlockIntro.js
+/client/src/components/formHelpers/Form.js
+/client/src/components/formHelpers/Form.test.js
+/client/src/components/formHelpers/FormFields.js
+/client/src/components/formHelpers/FormValidators.js
+/client/src/components/formHelpers/index.js
+I don't see them assigned to anyone. So will be happy to help.",/client/src/components/formHelpers/FormValidators.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-877635558,file_name,"Hi, Is it too late to say I will migrate below files? @ojeytonwilliams
+/client/src/templates/Introduction/Intro.js
+/client/src/templates/Introduction/SuperBlockIntro.js
+/client/src/components/formHelpers/Form.js
+/client/src/components/formHelpers/Form.test.js
+/client/src/components/formHelpers/FormFields.js
+/client/src/components/formHelpers/FormValidators.js
+/client/src/components/formHelpers/index.js
+I don't see them assigned to anyone. So will be happy to help.",/client/src/components/formHelpers/index.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-922406454,file_name,"Hi! I just added a PR (#43490) migrating ActionRow.js. My first open source PR ever, so please let me know if there's anything I can improve!",ActionRow.js,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issue-992956585,file_name,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the main branch of freeCodeCamp.
+I have tested these changes either locally on my machine, or GitPod.
+Closes #43427",index.md,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-235279855,file_name,"@alephman
+You don't need vendor specific header files to build any OpenCL program. Try cl.hpp from https://www.khronos.org/registry/cl/api/1.2/cl.hpp and opencl.h/cl.h from any other SDK. For example - I have at least 3 OpenCL platform and all it works with one shared /usr/include/CL/cl.h",https://www.khronos.org/registry/cl/api/1.2/cl.hpp,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-335614767,file_name,"@lukeiwanski Is that a ComputeCpp version that can build TF at the moment ?
+I tried various versions between 0.3.2 and 0.1.4 and none worked. They all ended up with the ""multiple overloads of 'global_ptr' instantiate to the same signature"" error.
+Btw, I cannot find the TensorDeviceSycl.h file in TF sources, is that a renamed one ? Is it possible to apply the patch to current sources ?
+Thanks in advance.",TensorDeviceSycl.h,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/2002#issuecomment-215632593,file_name,"@keveman , FYI, had to add
+copts = if_cuda([""-DGOOGLE_CUDA=1""]),
+to the cc_binary in tensorflow.bzl or else the GPU kernels wouldn't register. is that correct, or should i move the register code into the .cu.cc file?",tensorflow.bzl,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/2002#issuecomment-215632593,file_name,"@keveman , FYI, had to add copts = if_cuda([""-DGOOGLE_CUDA=1""]), to the cc_binary in tensorflow.bzl or else the GPU kernels wouldn't register. is that correct, or should i move the register code into the .cu.cc file?",.cu.cc,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/2002#issuecomment-236753046,file_name,"@LeavesBreathe fyi there are two versions of GridLSTM, one in the main rnn_cell file and the other in contrib.",rnn_cell,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/11392#issuecomment-314574677,file_name,"As discussed in linux-rdma/rdma-core#163, I have to give up adding the RDMA libraries as third party dependencies, and rely on target environment for building GDR. This means an extra compile switch in the configure file, and also a macro that shadow all the RDMA API calls.
+I will start to migrate my patch in the next few days.",configure,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/9376#issuecomment-317849612,file_name,"I think it's because the sanity check failed (which aborts everything else).
+https://ci.tensorflow.org/job/tensorflow-pull-requests-sanity/5397/console
+Suggests that the problem is that the BUILD files are failing 'buildifier'. If you see our CONTRIBUTING.md file, there will be instructions for how to automatically format BUILD files (kind of like clang-format). That should probably solve the problem!",CONTRIBUTING.md,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/9376#issuecomment-325026287,file_name,"I think the CMake problems stem from some confusion about the idiomiatic way to include custom op libraries in tf.contrib. (This doesn't appear to be well documented, so it's not your fault!)
+To outline the steps:
+1. Since b2ac11c, we've been statically generating the Python wrappers for all contrib op kernels (on all platforms and build systems). Have a look at that commit to see how to do that; it's quite possible that you're already generating them with the existing Bazel rules. The important thing to note is that the imported symbol(s) for the new ops should come from the gen_*_ops module rather than the result of load_op_library().
+2. To make the build easier on Windows, delete the AddUserOps from tf_python.cmake. Including the source files in the list of tf_contrib_kernels_srcs in tf_core_kernels.cmake should be enough to get the code statically linked into the Python extension (which is a somewhat easier route to take on Windows).",tf_python.cmake,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/9376#issuecomment-325026287,file_name,"I think the CMake problems stem from some confusion about the idiomiatic way to include custom op libraries in tf.contrib. (This doesn't appear to be well documented, so it's not your fault!)
+To outline the steps:
+1. Since b2ac11c, we've been statically generating the Python wrappers for all contrib op kernels (on all platforms and build systems). Have a look at that commit to see how to do that; it's quite possible that you're already generating them with the existing Bazel rules. The important thing to note is that the imported symbol(s) for the new ops should come from the gen_*_ops module rather than the result of load_op_library().
+2. To make the build easier on Windows, delete the AddUserOps from tf_python.cmake. Including the source files in the list of tf_contrib_kernels_srcs in tf_core_kernels.cmake should be enough to get the code statically linked into the Python extension (which is a somewhat easier route to take on Windows).",tf_core_kernels.cmake,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/27454#issuecomment-485245362,file_name,There seems to be a file conflict in tensorflow/python/training/server_lib.py.,tensorflow/python/training/server_lib.py,just extracted replied comment
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/377#issuecomment-3975200,file_name,"@sorin-ionescu
+I notice that your fork of OMZ doesn't have all of the plugins currently available for OMZ. What would be the best way of including some of my favorites, like extract (ironically enough, something that you wrote), using your fork?
+Would it be as simple as copying over the plugin and renaming the file to be loaded to 'init.zsh'?",init.zsh,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/377#issuecomment-5268369,file_name,"And finally when it comes to the actual interesting plugins, we try on OMZ2, to keep README.md files mentioning the author(s) of the said plugin so they're always in the loop whenever a modification to the plugin is done.",README.md,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issue-365263634,file_name,"You'll need to read the .plugin.zsh file to know what the plugin does or, if there isn't one, the plugin will probably just add completion. You can also get what the plugin does by looking at the commits, or even the plugins wiki.",.plugin.zsh,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/1359#issuecomment-68328193,file_name,"got the same issue while using RVM , had to comment the PATH in .zshrc file.",.zshrc,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/3889#issuecomment-114602117,file_name,"I was fortunate enough to save the broken .zcomdump-hostname-5.0.6 in my babun install before fixing it manually and later finding this thread, so I can trigger it at will now.
+Unfortunately, after replacing the .oh-my-zsh/oh-my-zsh.sh file, I didn't get the expected result:",oh-my-zsh.sh,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/3889#issuecomment-114671011,file_name,"Could you post your broken .zcompdump file as a gist so we can use it for forensics and reproduction, too?
+I think you need to modify the script such that when compaudit does find something wrong, it deletes the existing .zcompdump-* files so that compinit regenerates it instead of just reusing an existing one, which were probably built from the bad directory state. (Should probably delete all of them and not just the current session's $ZSH_COMPDUMP, in case other ones were built from bad dirs too, but wouldn't be noticed because the next startup for that host/version would have a clean compaudit.)",.zcompdump,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/269#issuecomment-974103,file_name,"Well, it does not work with my setup/fork, because I am using compdef via ""$ZSH/custom/*.zsh"" already.
+All the completion stuff should get configured in lib/completion.zsh, so it might work to add it to the end of that file?!",lib/completion.zsh,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/4235#issuecomment-137611579,file_name,"Looks like it's a file extension, and not a hidden directory, at least for new projects using Xcode 6.x. I fired up Xcode and made a new project called ""Whatever"", and it gave me a Whatever.xcodeproj file inside the project directory. Should probably be looking for *.xc... and not just .xc.... Googling this seems to agree, but I don't see anything authoritative.
+I'm not a Mac developer; maybe someone with more Xcode experience can chime in.",Whatever.xcodeproj,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/4235#issue-99928789,file_name,"This PR does the following:
+Fix the xc() function by only looking for .xcworskpace and .xcodeproj files.
+It also cleans it up by using zsh arrays and localized variables.
+Change xcsel function into an alias, since it doesn't do anything extraordinary and ""$*"" might have side effects.
+Closes #3259, #3950.",.xcworskpace,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/4235#issue-99928789,file_name,"This PR does the following:
+Fix the xc() function by only looking for .xcworskpace and .xcodeproj files.
+It also cleans it up by using zsh arrays and localized variables.
+Change xcsel function into an alias, since it doesn't do anything extraordinary and ""$*"" might have side effects.
+Closes #3259, #3950.",.xcodeproj,
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318935083,file_name,"I think it would be best to bring up with cdnjs maintainers if you’d like to see alphas of React there. We won’t be putting cdnjs-specific things into React package.json files. Cdnjs is welcome to use information from our npm releases, just like Unpkg does today. (And we are thankful if you can contribute there to make it work!)",package.json,just extracted relevant text
+facebook/react,https://github.com/facebook/react/pull/21922#issue-948624288,file_name,"I have kept a single view called ""Highlighter"" with the index.js of old Highlighter as it is, and the index.js of TraceUpdates as another js file, whose functions are called directly in agent.js.
+The HiglighterCanvas.js has the canvas based implementation for both, trace updates and DOM inspect. The inspect function is rewritten to make a canvas based solution, instead of overlay.",index.js,
+facebook/react,https://github.com/facebook/react/pull/21922#issue-948624288,file_name,"I have kept a single view called ""Highlighter"" with the index.js of old Highlighter as it is, and the index.js of TraceUpdates as another js file, whose functions are called directly in agent.js.
+The HiglighterCanvas.js has the canvas based implementation for both, trace updates and DOM inspect. The inspect function is rewritten to make a canvas based solution, instead of overlay.",agent.js,
+facebook/react,https://github.com/facebook/react/pull/21922#issue-948624288,file_name,"I have kept a single view called ""Highlighter"" with the index.js of old Highlighter as it is, and the index.js of TraceUpdates as another js file, whose functions are called directly in agent.js.
+The HiglighterCanvas.js has the canvas based implementation for both, trace updates and DOM inspect. The inspect function is rewritten to make a canvas based solution, instead of overlay.",HiglighterCanvas.js,
+facebook/react,https://github.com/facebook/react/pull/21922#issuecomment-889399480,file_name,"I have updated the PR, can you review it. Thanks!
+I have 3 files now, index.js Highlighter.js and Canvas.js
+index.js has the setup function for trace updates and highlighter, and also calls the draw function from Canvas which does the trace updates. It also calls the showOverlay and hideOverlay from highlighter for Highlighting.
+Highlighter.js has showOverlay and hideOverlay which also calls the Canvas' code. This time inspect function which has the canvas highlighting.
+Canvas.js has the single canvas implementation for both. But there are functions which are specific to either trace updates or highlighter, as a result a Canvas created for highlighter will also have functions for trace updates which wont be used.",index.js,
+facebook/react,https://github.com/facebook/react/pull/21922#issuecomment-889399480,file_name,"I have updated the PR, can you review it. Thanks!
+I have 3 files now, index.js Highlighter.js and Canvas.js
+index.js has the setup function for trace updates and highlighter, and also calls the draw function from Canvas which does the trace updates. It also calls the showOverlay and hideOverlay from highlighter for Highlighting.
+Highlighter.js has showOverlay and hideOverlay which also calls the Canvas' code. This time inspect function which has the canvas highlighting.
+Canvas.js has the single canvas implementation for both. But there are functions which are specific to either trace updates or highlighter, as a result a Canvas created for highlighter will also have functions for trace updates which wont be used.",Highlighter.js,
+facebook/react,https://github.com/facebook/react/pull/21922#issuecomment-889399480,file_name,"I have updated the PR, can you review it. Thanks!
+I have 3 files now, index.js Highlighter.js and Canvas.js
+index.js has the setup function for trace updates and highlighter, and also calls the draw function from Canvas which does the trace updates. It also calls the showOverlay and hideOverlay from highlighter for Highlighting.
+Highlighter.js has showOverlay and hideOverlay which also calls the Canvas' code. This time inspect function which has the canvas highlighting.
+Canvas.js has the single canvas implementation for both. But there are functions which are specific to either trace updates or highlighter, as a result a Canvas created for highlighter will also have functions for trace updates which wont be used.",Canvas.js,
+facebook/react,https://github.com/facebook/react/pull/21922#issuecomment-908715091,file_name,"Can we delete these newly added files?
+fixtures/eslint/README.md
+fixtures/packaging/babel-standalone/dev.html
+I don't think they add anything over the test shell or the fixtures we already have.",fixtures/eslint/README.md,
+facebook/react,https://github.com/facebook/react/pull/21922#issuecomment-908715091,file_name,"Can we delete these newly added files?
+fixtures/eslint/README.md
+fixtures/packaging/babel-standalone/dev.html
+I don't think they add anything over the test shell or the fixtures we already have.",fixtures/packaging/babel-standalone/dev.html,
+facebook/react,https://github.com/facebook/react/issues/10191#issuecomment-316180082,file_name,"I'm not sure how possible this is, but what about the nuclear option of forking React from before the PATENTS file addition:
+https://github.com/facebook/react/commits/master/PATENTS
+Seems like a huge waste but what else can people do if Facebook doesn't want to play ball?",https://github.com/facebook/react/commits/master/PATENTS,
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-349330066,file_name,"Maybe we can unify metadata structure which is used by BV, Onesen and Vuetify and hand-craft or auto-generate meta for any component library in either package.json or vue.json file.
+This way, just like any other part of Vue's ecosystem tooling can be delegated to library authors. We may also provide some helpers making the process easier and not forcing to use specific syntax like JSDocs.",package.json,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-349330066,file_name,"Maybe we can unify metadata structure which is used by BV, Onesen and Vuetify and hand-craft or auto-generate meta for any component library in either package.json or vue.json file.
+This way, just like any other part of Vue's ecosystem tooling can be delegated to library authors. We may also provide some helpers making the process easier and not forcing to use specific syntax like JSDocs.",vue.json,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-676359653,file_name,"@mesqueeb VSCode does not have support for ""web-types.json"", it uses a much more simplified format split into two files. As @rchl has mentioned above he has filed a feature request for Vetur to support web-types - vuejs/vetur#2090.",web-types.json,
+vuejs/vue,https://github.com/vuejs/vue/issues/8721#issuecomment-625669469,file_name,"Having the same issue when using the new Vue.js Composition API with vscode-insiders. The code compiles without TS errors but vscode shows an error nonetheless.
+Details
+Version: typescript 3.8.3, eslint 6.8.0
+Possible related issues: #23987, #29511 #32573 #34999
+Type declaration didn't work here either as a workaorund. So this failed too in vscode:",Vue.js,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/478#issuecomment-120982216,file_name,"That will create a directory for typings, as well as a tsd.d.ts file that your can reference in your JavaScript file or at the top of a block of JavaScript so that editors that have TypeScript capabilities can understand Vue code. This works especially well with Github's Atom browser with the TypeScript plugin, as well as Microsoft's new cross-platform code editor, Visual Studio Code.",tsd.d.ts,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/78#issuecomment-44754697,file_name,"@MattAitchison I aggree with you. I have tried to create Vue objects in component's own index.js files but it fails, for example. @yyx990803 Do you have any idea to do this easily? I am lacked of knowledge about component.js and I am stuck..",index.js,
+vuejs/vue,https://github.com/vuejs/vue/issues/2000#issuecomment-408727908,file_name,"More findings related to this issue.
+The performance difference is actually introduced by referencing the CSS files as
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
+or in the index.html file. When either the index.html imports the CSS files or using import in the JS file, the ""createStyleElement @ addStylesClient.js?ae38:114"" will slow down the rendering quite a lot.",vue-material/dist/vue-material.min.css,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/2000#issuecomment-408727908,file_name,"More findings related to this issue.
+The performance difference is actually introduced by referencing the CSS files as
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
+or in the index.html file. When either the index.html imports the CSS files or using import in the JS file, the ""createStyleElement @ addStylesClient.js?ae38:114"" will slow down the rendering quite a lot.",vue-material/dist/theme/default.css,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/2000#issuecomment-408727908,file_name,"More findings related to this issue.
+The performance difference is actually introduced by referencing the CSS files as
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
+or in the index.html file. When either the index.html imports the CSS files or using import in the JS file, the ""createStyleElement @ addStylesClient.js?ae38:114"" will slow down the rendering quite a lot.",index.html,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/5298#issuecomment-390753390,file_name,Including vue-shims.d.ts in the files property of tsconfig.json fixed the issue for me:,vue-shims.d.ts,
+vuejs/vue,https://github.com/vuejs/vue/issues/5298#issuecomment-390753390,file_name,Including vue-shims.d.ts in the files property of tsconfig.json fixed the issue for me:,tsconfig.json,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-22351302,file_name,"@bazineta The navbar examples are not working, they are missing the required bootstrap.js file and jquery includes.
+I just created a working version here: http://jsfiddle.net/KGzvR/1/embedded/result/
+The issue I am experiencing is when the menu is collapsed for mobile devices, click the collapse button so the menu expands, then click the 'Dropdown' link, this dropdown appears like the desktop version (as a popup), instead of collapsing into the menu. Anyone else experiencing this issue?",bootstrap.js,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issue-9423982,file_name,"Go mobile first. Responsive CSS is no longer separate and all responsive features are now compiled into the core bootstrap.css file near. Separate files are no longer required, and have thus been removed.
+Upgrade to latest Normalize, and removed reset.less.
+This includes removing reset.less in favor of a dedicated normalize.less file.
+Print styles and responsive image CSS (the only meaningful modifications from the previous reset file) have been moved to print.less and scaffolding.less, respectfully.
+Moved print styles to separate print.less file.
+Previously print styles were bundled with the scaffolding.less page.
+Now within a separate file for easy removal via the Customizer.",bootstrap.css,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issue-9423982,file_name,"Go mobile first. Responsive CSS is no longer separate and all responsive features are now compiled into the core bootstrap.css file near. Separate files are no longer required, and have thus been removed.
+Upgrade to latest Normalize, and removed reset.less.
+This includes removing reset.less in favor of a dedicated normalize.less file.
+Print styles and responsive image CSS (the only meaningful modifications from the previous reset file) have been moved to print.less and scaffolding.less, respectfully.
+Moved print styles to separate print.less file.
+Previously print styles were bundled with the scaffolding.less page.
+Now within a separate file for easy removal via the Customizer.",normalize.less,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issue-9423982,file_name,"Go mobile first. Responsive CSS is no longer separate and all responsive features are now compiled into the core bootstrap.css file near. Separate files are no longer required, and have thus been removed.
+Upgrade to latest Normalize, and removed reset.less.
+This includes removing reset.less in favor of a dedicated normalize.less file.
+Print styles and responsive image CSS (the only meaningful modifications from the previous reset file) have been moved to print.less and scaffolding.less, respectfully.
+Moved print styles to separate print.less file.
+Previously print styles were bundled with the scaffolding.less page.
+Now within a separate file for easy removal via the Customizer.",print.less,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issue-9423982,file_name,"Go mobile first. Responsive CSS is no longer separate and all responsive features are now compiled into the core bootstrap.css file near. Separate files are no longer required, and have thus been removed.
+Upgrade to latest Normalize, and removed reset.less.
+This includes removing reset.less in favor of a dedicated normalize.less file.
+Print styles and responsive image CSS (the only meaningful modifications from the previous reset file) have been moved to print.less and scaffolding.less, respectfully.
+Moved print styles to separate print.less file.
+Previously print styles were bundled with the scaffolding.less page.
+Now within a separate file for easy removal via the Customizer.",scaffolding.less,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issue-9423982,file_name,"No longer require use of .hide. We updated the utility classes to use !important and to avoid clashing, removed the .hide class from modals. Now display: none; is set directly in the modals.less file. When upgrading, be sure to remove the .hide class from existing modals.",modals.less,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-11822720,file_name,"Overhauled default grid system. | bootstrap is used quite extensively with web applications with complicated layouts and pixel perfect fitting, not being able to use nested grids is a major drawback IMO. back to specifiing sizes i see. i agree the % option in theory sounds better and looks cleaner.. in practice tho.. not every usage of BS is for websites with simple layouts. seriously consider brining back the ability to have nested grids or at least have a seperate less file with them in that when you choose your package you can enable it to import the grid.less file or not.",grid.less,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-15216289,file_name,"Responsive.css: Building the responsiveness into the core CSS makes total sense. But during development I ended up moving the media queries code to a separate responsive.css file, simply because jumping to a separate file made it easier for me to manage my code.",responsive.css,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-15281547,file_name,"To do the rest of the files, simply make a copy of the default.html file and replace the content between the <!-- Page content of course! --> and <!-- End content --> comments with whichever file you want (e.g. docs/components.html. So, basically repeat Step 4.",default.html,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-15281547,file_name,"To do the rest of the files, simply make a copy of the default.html file and replace the content between the <!-- Page content of course! --> and <!-- End content --> comments with whichever file you want (e.g. docs/components.html. So, basically repeat Step 4.",components.html,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-495972649,file_name,"Following these steps was giving ""Gradle build failed to produce an Android package."" error
+After an hour of debugging, found out the fix.
+To create different apps for x86 and x64, follow these steps:
+Step 1: Include the code snippet in app/build.gradle file. The file will look like:",build.gradle,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-496055650,file_name,"@mormih thanks for your patience -- we're working on reproducing. If you wouldn't mind, could you send me an email (tvolkert@google.com) including the following, it would help:
+Your host platform you're using to build.
+The command you're using to build the app.
+Run your build command with --bug-report (e.g. flutter build appbundle --bug-report) and attach the associated bugreport.zip file
+Attach the generated app bundle so we can try running it on local devices
+Attach the results of adb bugreport after having tried to run the app
+Thanks!",bugreport.zip,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-504627068,file_name,@tvolkert you are saying that in v1.7.4 the file libflutter.so is automatically added for 64bit device when we build the bundle using command flutter build appbundle?,libflutter.so,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-435766086,file_name,"extract lib/armeabi-v7a/libflutter.so from $<FLUTTER>/bin/cache/artifacts/engine/android-arm-release/flutter.jar
+copy file armeabi-v7a/libflutter.so into $<project>/android/jniLibs/armeabi-v7a/
+modify $<project>/android/app/build.gradle as below:",lib/armeabi-v7a/libflutter.so,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-435766086,file_name,"extract lib/armeabi-v7a/libflutter.so from $<FLUTTER>/bin/cache/artifacts/engine/android-arm-release/flutter.jar
+copy file armeabi-v7a/libflutter.so into $<project>/android/jniLibs/armeabi-v7a/
+modify $<project>/android/app/build.gradle as below:",<FLUTTER>/bin/cache/artifacts/engine/android-arm-release/flutter.jar,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-435766086,file_name,"extract lib/armeabi-v7a/libflutter.so from $<FLUTTER>/bin/cache/artifacts/engine/android-arm-release/flutter.jar
+copy file armeabi-v7a/libflutter.so into $<project>/android/jniLibs/armeabi-v7a/
+modify $<project>/android/app/build.gradle as below:",armeabi-v7a/libflutter.so,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-435766086,file_name,"extract lib/armeabi-v7a/libflutter.so from $<FLUTTER>/bin/cache/artifacts/engine/android-arm-release/flutter.jar
+copy file armeabi-v7a/libflutter.so into $<project>/android/jniLibs/armeabi-v7a/
+modify $<project>/android/app/build.gradle as below:",<project>/android/app/build.gradle,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-477550853,file_name,"I think the flutter.gradle script should include all ABIs into the final APK (Universal APK) and then default turn split APKs on. The android tools will select the right APK to upload to the connected device and all is well. The final universal APK can then be uploaded to the play-store, or either the split APKs for each ABI.
+In the meantime as a solution you can add this to the bottom of your build.gradle in your android\app directory.",flutter.gradle,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-477550853,file_name,"I think the flutter.gradle script should include all ABIs into the final APK (Universal APK) and then default turn split APKs on. The android tools will select the right APK to upload to the connected device and all is well. The final universal APK can then be uploaded to the play-store, or either the split APKs for each ABI.
+In the meantime as a solution you can add this to the bottom of your build.gradle in your android\app directory.",build.gradle,just extracted relevant text
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-490889280,file_name,@SPodjasek Using this increased my app-release.apk file size from 11.1 MB to 15.7 MB,app-release.apk,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-421541803,file_name,"I am also having the same issue.
+In all of my dependencies, I isolated at least one package causing the issue, I filled a bug report accordingly: azihsoyn/flutter_mlkit#36
+To isolate the problem, for each of my dependency / plugin:
+Create an empty flutter project
+Replace main.dart with
+the package example code (ex: https://pub.dartlang.org/packages/flutter_html_view#-example-tab-)
+Update pubspec.yaml accordingly
+run
+$ flutter build apk
+It turned out that the one creating was flutter_mlkit.
+I want to be able to target both 32 & 64 architectures.",pubspec.yaml,
+flutter/flutter,https://github.com/flutter/flutter/issues/15922#issuecomment-375967036,file_name,"This has been asked for a long time:
+#11609
+Functional prototype developed:
+https://spark-heroku-dsx.herokuapp.com/index.html
+That shows the alternative and some benefits...","https://spark-heroku-dsx.herokuapp.com/index.html
+",
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-483809367,file_name,"Hi @Otakumouse, if you do not mind, can you share us this interesting settings.json file?",settings.json,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-552438343,file_name,"In spite of I being an user of KDE, I installed Compton, created a folder and a file - ~/.config/compton/compton.conf, but it did not work. Neither with KWin.
+But the blur worked with devilspie:",~/.config/compton/compton.conf,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/pull/97272#issuecomment-795987099,file_name,"Count me as another user who wants this. I've been using capitalization to sort certain files (CMakeLists.txt, README, LICENSE, etc) before source code files for decades. With VS Code's current options, these files always get sorted into the middle of all my other files and it's very jarring and inconsistent with the other tools I use.",CMakeLists.txt,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/97272#issuecomment-795987099,file_name,"Count me as another user who wants this. I've been using capitalization to sort certain files (CMakeLists.txt, README, LICENSE, etc) before source code files for decades. With VS Code's current options, these files always get sorted into the middle of all my other files and it's very jarring and inconsistent with the other tools I use.",README,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/97272#issuecomment-795987099,file_name,"Count me as another user who wants this. I've been using capitalization to sort certain files (CMakeLists.txt, README, LICENSE, etc) before source code files for decades. With VS Code's current options, these files always get sorted into the middle of all my other files and it's very jarring and inconsistent with the other tools I use.",LICENSE,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52119#issuecomment-403113775,file_name,This is missing an arm64 entry in the object inside of getDebPackageArch in build\gulpfile.vscode.linux.js,build\gulpfile.vscode.linux.js,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/13909#issuecomment-258596744,file_name,"@wprater added more feedback. I did not look closely at quickOpenController.ts as the file seemed to have work in progress code (commented out imports et al?). If that file is about restoring the previous editor state, maybe you remove your changes and I can look into that particular thing later.
+Btw I noticed that dirty editors cannot open as preview editors (conceptually currently). That is a pretty bad limitation for this feature I fear :-(",quickOpenController.ts,
+microsoft/vscode,https://github.com/microsoft/vscode/issues/396#issuecomment-248089919,file_name,"Is there at least support for recognizing .vscode/settings.json in nested directories. When working on a single project, there may be subtrees with different sets of settings and which come form different (git) repositories. e.g.",.vscode/settings.json,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/issues/396#issuecomment-248089919,file_name,"I would expect that vscode would take (and maybe merge) the settings of the closest parent directory like a lot of config files (.eslint, .gitignore, .editorconfig, tsconfig.json, 'package.json` ....).
+So, when I open /root, then any file in root/server/ should be handled as if I would open root/server/ directly. The simplest solution would be to stop searching for settings in parent directories one a .vscode/settings.json file is found.",.eslint,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/issues/396#issuecomment-248089919,file_name,"I would expect that vscode would take (and maybe merge) the settings of the closest parent directory like a lot of config files (.eslint, .gitignore, .editorconfig, tsconfig.json, 'package.json` ....).
+So, when I open /root, then any file in root/server/ should be handled as if I would open root/server/ directly. The simplest solution would be to stop searching for settings in parent directories one a .vscode/settings.json file is found.",.gitignore,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/issues/396#issuecomment-248089919,file_name,"I would expect that vscode would take (and maybe merge) the settings of the closest parent directory like a lot of config files (.eslint, .gitignore, .editorconfig, tsconfig.json, 'package.json` ....).
+So, when I open /root, then any file in root/server/ should be handled as if I would open root/server/ directly. The simplest solution would be to stop searching for settings in parent directories one a .vscode/settings.json file is found.",.editorconfig,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/issues/396#issuecomment-248089919,file_name,"I would expect that vscode would take (and maybe merge) the settings of the closest parent directory like a lot of config files (.eslint, .gitignore, .editorconfig, tsconfig.json, 'package.json` ....).
+So, when I open /root, then any file in root/server/ should be handled as if I would open root/server/ directly. The simplest solution would be to stop searching for settings in parent directories one a .vscode/settings.json file is found.",tsconfig.json,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/issues/396#issuecomment-248089919,file_name,"I would expect that vscode would take (and maybe merge) the settings of the closest parent directory like a lot of config files (.eslint, .gitignore, .editorconfig, tsconfig.json, 'package.json` ....).
+So, when I open /root, then any file in root/server/ should be handled as if I would open root/server/ directly. The simplest solution would be to stop searching for settings in parent directories one a .vscode/settings.json file is found.",.vscode/settings.json,just extracted relevant text
+microsoft/vscode,https://github.com/microsoft/vscode/issues/396#issuecomment-248089919,file_name,"I would expect that vscode would take (and maybe merge) the settings of the closest parent directory like a lot of config files (.eslint, .gitignore, .editorconfig, tsconfig.json, 'package.json` ....).
+So, when I open /root, then any file in root/server/ should be handled as if I would open root/server/ directly. The simplest solution would be to stop searching for settings in parent directories one a .vscode/settings.json file is found.",package.json,just extracted relevant text
+facebook/create-react-app,https://github.com/facebook/create-react-app/pull/5491#issuecomment-438286814,file_name,"Also, regarding the tweet you shared, I see that part of that solution involves updating the service-worker file itself to add the message event handler. So this would require using something to customize C-R-A's generated service-worker file?",service-worker,
+facebook/create-react-app,https://github.com/facebook/create-react-app/pull/2285#issue-230144978,file_name,"Given src/components/Button/Button.module.css with a class .primary {}, the generated classname will be src-components-Button__Button-module___primary.",src/components/Button/Button.module.css,
+facebook/create-react-app,https://github.com/facebook/create-react-app/pull/2285#issuecomment-303583427,file_name,"I think so, but your dropdown file will need to be called bootstrap/scss/dropdown.modules.scss to be localised.",bootstrap/scss/dropdown.modules.scss,
+facebook/create-react-app,https://github.com/facebook/create-react-app/pull/2285#issuecomment-303765639,file_name,Updated to now use module.css,module.css,
+facebook/create-react-app,https://github.com/facebook/create-react-app/pull/2285#discussion_r118331178,file_name,There must be some other way the components are being loaded for the e2e tests outside of integration/webpack.test.js,integration/webpack.test.js,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/7584#issuecomment-158578579,file_name,"Unfortunately the developer instructions don't help with running python.py on windows. I have always gotten this error when following the directions to simply grab the entire dist and run ""python youtube-dl.py"":",youtube-dl.py,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25734#issuecomment-665059728,file_name,visit https://github.com/xarantolus/youtube-dl switch to branch fixYTSearch code > download zip > https://github.com/xarantolus/youtube-dl/archive/fixYTSearch.zip,https://github.com/xarantolus/youtube-dl/archive/fixYTSearch.zip,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/8497#issuecomment-186822670,file_name,"Something ""bad"" about this change is that all pull request that add a extractor would need to be updated. So I want to expose the rationale for the change: I initially started by creating a new youtube_dl/lazy_extractors.py file and changed all from .extractor import <something> to:",youtube_dl/lazy_extractors.py,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/8497#issuecomment-187320408,file_name,"Currently, it's impossible to make py2exe Windows build with lazy extractors enabled since devscripts/make_lazy_extractors.py is only called via Makefile that is not used in Windows build. Ideally single python setup.py py2exe should still be kept enough for a py2exe build.",devscripts/make_lazy_extractors.py,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/8497#issuecomment-187320408,file_name,"Currently, it's impossible to make py2exe Windows build with lazy extractors enabled since devscripts/make_lazy_extractors.py is only called via Makefile that is not used in Windows build. Ideally single python setup.py py2exe should still be kept enough for a py2exe build.",setup.py,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-663842184,file_name,"When specifying an output file with a .mp3 extension, the conversion step from WEBM or M4A to MP3 is skipped because ffmpeg assumes the audio format is already correct. In the logs this can be observed by the [ffmpeg] Post-process file test.mp3 exists, skipping message. Additionally ffprobe shows the webm file format",test.mp3,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-647078595,file_name,"This fix works for me! One thing that might need to be tweaked is to have it strip the original thumbnail extension when converting - right now it leaves a file thumbnail.webp.jpg, and it could instead name it thumbnail.jpg",thumbnail.webp.jpg,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-647078595,file_name,"This fix works for me! One thing that might need to be tweaked is to have it strip the original thumbnail extension when converting - right now it leaves a file thumbnail.webp.jpg, and it could instead name it thumbnail.jpg",thumbnail.jpg,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-658679812,file_name,youtube-dl seems to save the downloaded opus file as test.mp3 and skips converting the audio to actual mp3 format. This breaks ffmpeg when it tries to look for mp3 streams in an opus file.,test.mp3,just extracted relevant text
+angular/angular.js,https://github.com/angular/angular.js/issues/17163#issue-1057815436,issue_number,"The alternative to this labor intensive task is pinning marked to 0.3.6` as is done in PR #17141
+",#17141,
+angular/angular.js,https://github.com/angular/angular.js/issues/17117#issuecomment-805037306,issue_number,"For now, using the work-around mentioned in #17117 (comment) should be sufficient. We might re-visit this if something changes in the future (for example, if the work-around stops being available).",#17117,
+angular/angular.js,https://github.com/angular/angular.js/issues/16917#issue-524531496,issue_number,Could be related with https://github.com/angular/angular.js/issues/16916 due to ambiguity of the selected option which should be displayed.,https://github.com/angular/angular.js/issues/16916,What to do with url issue_numbers?
+angular/angular.js,https://github.com/angular/angular.js/issues/16586#issuecomment-394268716,issue_number,"The behavior is intentional: #7736 I can see how this can be confusing / unwanted, but it's an either-or situation and we've ""fixed"" this behavior, so we cannot go back. Why exactly is it a problem for your app that the model us updated @amiteshhh ?",#7736,
+angular/angular.js,https://github.com/angular/angular.js/issues/16586#issuecomment-516835046,issue_number,"I agree that the ng-model value should be updated in this particular case (as fixed in #7736), but I don't think the ng-change should be fired.",#7736,
+angular/angular.js,https://github.com/angular/angular.js/issues/16348#issuecomment-472369473,issue_number,I'm now working around it by using a separate member of $scope in which I store the sorted and filtered rows for my table per your suggestion above (#16348 (comment)) instead of using | orderBy:foo | filter:bar.,#16348,
+angular/angular.js,https://github.com/angular/angular.js/issues/15201#issuecomment-250722286,issue_number,"Note, that there has been a change wrt ngModelOptions. In v1.5.x, an element would inherit its ancestor's ngModelOptions only if it didn't have its own ngModeOptions. Since v1.6.x (yet to be released), the inheritance is more granular, so even if an element has its own ngModelOptions, it will still inherit specific properties that it doesn't have.
+(The related PR is #10922.)",#10922,
+angular/angular.js,https://github.com/angular/angular.js/issues/15348#issuecomment-357681341,issue_number,"However, here's a plunker with an ngMessages version that includes the changes to #16406 and also a listener that checks takes into account the async operations when ngAnimate is included:",#16406,
+angular/angular.js,https://github.com/angular/angular.js/issues/15369#issuecomment-260328795,issue_number,See angular/code.angularjs.org#38 for the version-data.js update for code.angularjs.org,angular/code.angularjs.org#38,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/3544#issuecomment-745348136,issue_number,The link to vue-ctk-date-time-picker in the table above points to vue-prism-editor. Correct link in #3544 (comment),#3544,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/3544#issuecomment-759264678,issue_number,Three JS can also give migration problems: mrdoob/three.js#21075,mrdoob/three.js#21075,
+vuejs/awesome-vue,https://github.com/vuejs/awesome-vue/issues/3544#issuecomment-771721938,issue_number,"@benmo1602 Not that I know of no, there is a request for it surmon-china/vue-codemirror#124.
+Can you try out your hand at a Pull Request?",surmon-china/vue-codemirror#124,
+moby/moby,https://github.com/moby/moby/issues/42973#issue-1037844531,issue_number,"When using the btrfs storage driver, container deletion is slow. Deleting one container based on Debian 11 takes 3-4 minutes. Attaching strace to dockerd, I can see that this is because it is traversing each layer and calling fstat on each file. The reason for this appears to be because of #15801, where in some cases, there would be recursive subvolumes present, and those subvolumes need to be deleted first. The code that does this is here.",#15801,
+moby/moby,https://github.com/moby/moby/issues/42973#issuecomment-953991404,issue_number,"That said; I'm actually looking at the changes in #15801, and perhaps I'm reading the code wrong, but I have a feeling there's a bug in there;",#15801,
+moby/moby,https://github.com/moby/moby/issues/42973#issuecomment-955596540,issue_number,Looks like #36536 made these changes.,#36536,
+moby/moby,https://github.com/moby/moby/issues/42953#issuecomment-947772836,issue_number,"I see there's two open issues in runc that could be related; opencontainers/runc#2586, and opencontainers/runc#1914. The last one looks quite similar to the error you're describing (init-p: connection reset by peer), and can be related to your kernel / system's configuration having limits set too low (there's some issues linked to that ticket that may provide more details)",opencontainers/runc#2586,
+moby/moby,https://github.com/moby/moby/issues/42953#issuecomment-947772836,issue_number,"I see there's two open issues in runc that could be related; opencontainers/runc#2586, and opencontainers/runc#1914. The last one looks quite similar to the error you're describing (init-p: connection reset by peer), and can be related to your kernel / system's configuration having limits set too low (there's some issues linked to that ticket that may provide more details)",opencontainers/runc#1914,
+moby/moby,https://github.com/moby/moby/issues/42619#issuecomment-883760773,issue_number,"As stated in opencontainers/runtime-spec#1052 (comment), I have already discussed how to implement this feature in opencontainers/runtime-spec#1047",opencontainers/runtime-spec#1052,
+moby/moby,https://github.com/moby/moby/issues/42619#issuecomment-883760773,issue_number,"As stated in opencontainers/runtime-spec#1052 (comment), I have already discussed how to implement this feature in opencontainers/runtime-spec#1047",opencontainers/runtime-spec#1047,
+moby/moby,https://github.com/moby/moby/issues/41827#issue-771588562,issue_number,"When a container logs a lot and there is a client attached to it that does not read it's output, that container will eventually block on write as it's output buffer fills up - this was discussed in #22502. However, if such a container stops - either due to it's main process exiting by itself or due to being killed with docker kill or by sending a death signal - the container will remain in docker ps and all operations on it (docker exec, docker kill etc.) will get stuck. It will remain in that state until that attached client goes away (detaches or exits). If client remains attached, container will be in such ""zombie"" state for arbitrarily long time.",#22502,
+moby/moby,https://github.com/moby/moby/issues/41715#issuecomment-733976493,issue_number,"Another option would be to build directly from a remote git repository and specify an (alternative) Dockerfile from stdin, however, unfortunately BuildKit currently does not support this option (see #38254)",#38254,
+moby/moby,https://github.com/moby/moby/issues/41044#issuecomment-635882764,issue_number,"Opened moby/buildkit#1514. After that's merged, it needs to be vendor in the 19.03 branch in this repository to resolve the issue for 19.03",moby/buildkit#1514,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/12381#issuecomment-884325217,issue_number,"Trying to figure out #12455 and this includes changing the logic that the setting page touches, as well.
+Is it just the opacity change mentioned or did you notice something else?
+I'll try to get it functional just to unblock testing #12455",#12455,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/12381#issuecomment-884328743,issue_number,"This is not what is causing #12455 , it's just useful to have fixed to test.
+I'll give it a quick try and get back to you if I find any issues. Thank you.",#12455 ,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/12381#issuecomment-884348169,issue_number,"I've opened this PR: #12459
+It fixes just what is needed to get #12455 testing unblocked for @yuyoyuppe .",#12455 ,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/12381#issuecomment-884348169,issue_number,"I've opened this PR: #12459
+It fixes just what is needed to get #12455 testing unblocked for @yuyoyuppe .",#12459,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/14576#issuecomment-975106099,issue_number,"Maybe #14356
+What resolution and the DPI scale are your monitor using?",#14356,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/14587#issuecomment-975682501,issue_number,"I'm linking this issue to #3278 to centralize the discussion thread, please go to that thread for discussion.",#3278,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/14566#issuecomment-975180135,issue_number,Thank you for your issue! We've linked your report against another issue #13035,#13035,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/13657#issue-1018612850,issue_number,Raised by @espresso3389 in PR #13550. Converting to issue for loc team to triage.,#13550,
+microsoft/PowerToys,https://github.com/microsoft/PowerToys/issues/14440#issuecomment-968737009,issue_number,refer #14356,#14356,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/91135#issue-1060431731,issue_number,I tried compiling the post-03 branch of blog os with cg_clif to test inline assembly support @nbdd0121 implemented in bjorn3/rustc_codegen_cranelift#1206.,bjorn3/rustc_codegen_cranelift#1206,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/89725#issuecomment-940187415,issue_number,"Thanks for the report! I believe this is a duplicate of #89725, so closing in favor of that.
+There is likely a fix that is missing in the beta compiler that is in the latest master branch. However, I wasn't able to narrow it down to a specific PR.",#89725,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/89725#issuecomment-940367941,issue_number,"Oops, yea, copy-and-paste error. Meant to link #89564.",#89564,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90752#issuecomment-964824217,issue_number,Bisection reveals that this issue is introduced in #68528.,#68528,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90752#issuecomment-964824217,issue_number,"I filed #90756 to disable precise_enum_drop_elaboration by default, and we can turn this back on once the issue is fixed.",#90756,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90752#issuecomment-965822895,issue_number," Things get more complex when raw pointers and unsafe code is involved (see #90718), but the original behavior was correct for realistic code.",#90718,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90752#issuecomment-965822895,issue_number,"I was a bit surprised that the second match statement was necessary to make the bug manifest. Without the partial move of (_1 as Some).0 into _x, the drop of _1 is a shallow one (its subpaths aren't considered), and since _1 is still initialized (only its variants are cleared by #68582), everything gets dropped correctly.",#68582,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90752#issuecomment-965822895,issue_number,Perhaps there are even more cases where this fix falls short. I've opened a PR that implements this (#90788) so I can discuss it further with the compiler team.,#90788,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90638#issue-1046268126,issue_number,This is related to #89196 and #85636 ; but is not the same issue: #85636 is already resolved and #89196 is dealing with a more complex case where inference is lacking.,#89196,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90638#issue-1046268126,issue_number,This is related to #89196 and #85636 ; but is not the same issue: #85636 is already resolved and #89196 is dealing with a more complex case where inference is lacking.,#85636,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90595#issuecomment-962561730,issue_number,"Another similar, albeit not identical, issue with ManuallyDrop: #79914",#79914,
+rust-lang/rust,https://github.com/rust-lang/rust/issues/90400#issuecomment-955067328,issue_number,"If you use a non-associated type alias instead of a GAT, the async and FnOnce versions still ICE but the custom trait version doesn't. See #90409",#90409,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28742#issuecomment-973908573,issue_number,There have been some changes to GC metrics in Micrometer 1.7.x such as micrometer-metrics/micrometer#2560. ,micrometer-metrics/micrometer#2560,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28595#issuecomment-966274144,issue_number,"Yes, you may need 2.5.5 or later as it contains #27900.",#27900,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/28045#issuecomment-922118917,issue_number,"In 2.6.x, we might be able to make use of the support added in #27840 to sanitize data from the spring.application.json property source if the key matches the configured keysToSanitize or the default ones.",#27840,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/26332#issuecomment-830328728,issue_number,"We started with a desire to put some of the more specific items like the existing Cloning the git repository on Windows and the suggestions in #25814 (comment) and #26309 on a wiki page to make them easier and faster to document, but ended up thinking it would be better to keep the ""Working with the Code"" content in one place.",#26309 ,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/26332#issuecomment-830328728,issue_number,"We started with a desire to put some of the more specific items like the existing Cloning the git repository on Windows and the suggestions in #25814 (comment) and #26309 on a wiki page to make them easier and faster to document, but ended up thinking it would be better to keep the ""Working with the Code"" content in one place.",#25814,
+spring-projects/spring-boot,https://github.com/spring-projects/spring-boot/issues/4003#issuecomment-142439017,issue_number,I'll need additional infos about JVM and JDK possibly but nevertheless I am looking at it right now (reactor/reactor#551 (comment)),reactor/reactor#551,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/16544#issue-290123504,issue_number,"As part of #16519 --
+npm run unpack extracts challenges into separate files for easier viewing and editing. The files are .gitignored and will not be checked in, and all mongo seed importing will keep using the existing system; this is essentially a tool for editing challenge.json files. These HTML files are self-contained and run their own tests -- open a JS console to see the test results.
+npm run repack gathers up the unpacked/edited HTML files into challenge-block JSON files.",#16519,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/40518#issuecomment-750178234,issue_number,"Sure, I think it was this one: #39286
+The issue was that the preview would wipe out the fcc console while the tests were running.",#39286,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/40518#issuecomment-750861901,issue_number,"@moT01 Regarding the above issue of when an /edit/ link is submitted in the solution input, is #40225 enough to cover this?
+@ojeytonwilliams I will still look into the sanitization, but is that perhaps a separate PR?",#40225,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issue-992956585,issue_number,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the main branch of freeCodeCamp.
+I have tested these changes either locally on my machine, or GitPod.
+Closes #43427",#43427,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issuecomment-933562055,issue_number,"@raisedadead we've discussed this a bit before: #42596 (comment)
+The TL;DR was we considered NGINX, routing inside the app and a separate redirection 'layer' (i.e. serve). The conclusion was that the order of preference was app routing > serve > NGINX, but we tried to get Gatsby to handle the redirects and failed.
+Unless you've changed your mind about this, I'm fine with continuing to use serve until either Gatsby changes or we migrate to something else that allows us to handle the redirection in the app. What do you reckon?",#42596,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-864511143,issue_number,Hey @Mvrs Please go through #42476 and see which files I've already worked on. Let me know which other ones you want to take up and I'll edit you in,#42476,just extracted relevant sentence
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-868767201,issue_number,"Hey friends,
+I'm going to try to land #42635 today, which will aim to resolve the existing linter issues, remove as many eslint-disable lines as possible, and get the client into a state where it builds.
+Once this lands, we can rebase our open migration PRs and ensure we continue to pass our CI. 🙂",#42635 ,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-938703493,issue_number,"Closed with new, cleaner issue to track: #43778",#43778,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-868771311,issue_number,@nhcarrigan I'll have #42636 redone after that then?,#42636,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-882546081,issue_number,"Hey everyone, I just wanted to make the warning a bit more visible. Any file that's not just used by the client will not be migrateable (yet), due to the lack of tooling mentioned in #42892. If a file is directly used by gatsby-config, gatsby-node or by anything outside of the client directory, then it will be used without compilation and so cannot be migrated yet.
+Sorry about the inconvenience, but those files will need to wait for the additional tooling.",#42892,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/issues/42256#issuecomment-922406454,issue_number,"Hi! I just added a PR (#43490) migrating ActionRow.js. My first open source PR ever, so please let me know if there's anything I can improve!",#43490,
+freeCodeCamp/freeCodeCamp/,https://github.com/freeCodeCamp/freeCodeCamp/pull/43429#issue-992956585,issue_number,"Checklist:
+I have read freeCodeCamp's contribution guidelines.
+My pull request has a descriptive title (not a vague title like Update index.md)
+My pull request targets the main branch of freeCodeCamp.
+I have tested these changes either locally on my machine, or GitPod.
+Closes #43427",#43427,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-237809269,issue_number,If you want you can cotribute also to let to compile with an opensource alternative. See #22 (comment),#22,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-163151152,issue_number,"/cc @ptillet @gongzg Is there any interest in this by Intel? I really hope that we don't fragment OPENCL here like in Caffe where we have an AMD fork, Intel unmerged PRs, another semi-unofficial AMD PR, and a long staging user PR (plus two old abandoned Opencl efforts). If somebody is interested in the history can take a look at BVLC/caffe#2610 comments.",#2610,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-172982563,issue_number,"@hsaputra
+There is clFFT, clBLAS (alternatively ViennaCL). Random number generator is a bit more tricky (no curand), either use a CPU generator and transfer to GPU or use another existing kernel for RNG.
+The biggest pitfall will again be efficient convolution implementations (something like cuDNN).
+There is experience about such issues here:
+BVLC/caffe#2610
+BVLC/caffe#2195
+https://github.com/amd/OpenCL-caffe",#2610,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-172982563,issue_number,"@hsaputra
+There is clFFT, clBLAS (alternatively ViennaCL). Random number generator is a bit more tricky (no curand), either use a CPU generator and transfer to GPU or use another existing kernel for RNG.
+The biggest pitfall will again be efficient convolution implementations (something like cuDNN).
+There is experience about such issues here:
+BVLC/caffe#2610
+BVLC/caffe#2195
+https://github.com/amd/OpenCL-caffe",#2195,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-197022837,issue_number,You can't always use the same commit comments in different repository ;) tensorflow/skflow#22,#22,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/issues/22#issuecomment-224620497,issue_number,"@djan92
+Yes, you are right, #22 is almost 8 months old and has over 100 posts! The information can get swamped!",#22,just extracted relevant text
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/8954#issue-219276170,issue_number,"This is requested in #8246
+I'll add the gradient op soon.
+This is my first TensorFlow PR. Please let me know if I made any mistake. Thanks!",#8246,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/8954#issuecomment-296355169,issue_number,"As I noted over in #8246, this can be done in Python with while_loop and TensorArray. I'm not sure how efficient that solution is.",#8246,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/8954#discussion_r118302537,issue_number,@shoyer The repeat and reduce_slice_sum at #9063 are gradients of each other. I would need this to implement the gradient of reduce_slice_sum.,#9063,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/8954#issuecomment-342326901,issue_number,"@martinwicke An aside, but I notice that I've been pulled into quite a few PR threads (#9376 is another example) where we're adding a new tf.contrib submodule for a single op. Should we try to consolidate these (to improve loading time, navigability, etc.)?",#9376,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/2002#issuecomment-212317863,issue_number,@wchan would it make sense to add the batch normalization option to your blocks see: #1736 ? Would love to try it out together!,#1736,
+tensorflow/tensorflow,https://github.com/tensorflow/tensorflow/pull/11392#issuecomment-314574677,issue_number,"As discussed in linux-rdma/rdma-core#163, I have to give up adding the RDMA libraries as third party dependencies, and rely on target environment for building GDR. This means an extra compile switch in the configure file, and also a macro that shadow all the RDMA API calls.
+I will start to migrate my patch in the next few days.",linux-rdma/rdma-core#163,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/377#issue-975591,issue_number,"Organising code inside of OH-MY-ZSH is becoming unnecessarily complex. For a while, there has been the /custom directory to dump files that override or append to the functionality of /lib, /plugins, and /themes.
+Then the ability to override /plugins via /custom/plugins was added (#89). Now, a new proposal has been submitted to allow the overriding of /themes (#376) and /lib (in the comments to #376) via /custom/themes and /custom/lib respectively.
+Additionally, there is the /functions directory (b865f2a) for dumping miscellaneous functions and the /completions directory (#351) for dumping miscellaneous completions.
+These directories are unnecessary for we already have a software configuration management (SCM) tool called Git. We should use Git exclusively.",#89,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/377#issue-975591,issue_number,"Organising code inside of OH-MY-ZSH is becoming unnecessarily complex. For a while, there has been the /custom directory to dump files that override or append to the functionality of /lib, /plugins, and /themes.
+Then the ability to override /plugins via /custom/plugins was added (#89). Now, a new proposal has been submitted to allow the overriding of /themes (#376) and /lib (in the comments to #376) via /custom/themes and /custom/lib respectively.
+Additionally, there is the /functions directory (b865f2a) for dumping miscellaneous functions and the /completions directory (#351) for dumping miscellaneous completions.
+These directories are unnecessary for we already have a software configuration management (SCM) tool called Git. We should use Git exclusively.",#376,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/377#issue-975591,issue_number,"Organising code inside of OH-MY-ZSH is becoming unnecessarily complex. For a while, there has been the /custom directory to dump files that override or append to the functionality of /lib, /plugins, and /themes.
+Then the ability to override /plugins via /custom/plugins was added (#89). Now, a new proposal has been submitted to allow the overriding of /themes (#376) and /lib (in the comments to #376) via /custom/themes and /custom/lib respectively.
+Additionally, there is the /functions directory (b865f2a) for dumping miscellaneous functions and the /completions directory (#351) for dumping miscellaneous completions.
+These directories are unnecessary for we already have a software configuration management (SCM) tool called Git. We should use Git exclusively.",#351,just extracted relevant text
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-541782284,issue_number,Hi! I'll take git-remote-branch -> #8259,#8259,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-426453170,issue_number,I have created a readme file for the encode64 plugin (#7192).,#7192,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-426831222,issue_number,I have created a readme file for dircycle plugin (#7213).,#7213,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-426881369,issue_number,"Hello, I've created Readme file for Bower plugin.
+#7216",#7216,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-427231015,issue_number,"*sighs* I have created a readme for the lol plugin, because why not. (#7231)
+Edit: also made a readme for catimg. (#7232)",#7231,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-427231015,issue_number,"*sighs* I have created a readme for the lol plugin, because why not. (#7231)
+Edit: also made a readme for catimg. (#7232)",#7232,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/issues/7175#issuecomment-427500882,issue_number,I just finished dirhistory in #7239.,#7239,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/4235#issue-99928789,issue_number,"This PR does the following:
+Fix the xc() function by only looking for .xcworskpace and .xcodeproj files.
+It also cleans it up by using zsh arrays and localized variables.
+Change xcsel function into an alias, since it doesn't do anything extraordinary and ""$*"" might have side effects.
+Closes #3259, #3950.",#3259,
+ohmyzsh/ohmyzsh,https://github.com/ohmyzsh/ohmyzsh/pull/4235#issue-99928789,issue_number,"This PR does the following:
+Fix the xc() function by only looking for .xcworskpace and .xcodeproj files.
+It also cleans it up by using zsh arrays and localized variables.
+Change xcsel function into an alias, since it doesn't do anything extraordinary and ""$*"" might have side effects.
+Closes #3259, #3950.",#3950,
+facebook/react,https://github.com/facebook/react/issues/11347#issuecomment-713725604,issue_number,"Can you please respond to the specific questions in #11347 (comment)? I feel like we're talking past each other. I just want to understand the whole intended behavior — in a specced way. What gets set when, and what gets serialized in which case.",#11347,just extracted relevant text
+facebook/react,https://github.com/facebook/react/issues/11347#issue-267902244,issue_number,This is meant to address #7249. The doc outlines the pros and cons of various approaches React could use to handle attributes and properties on custom elements.,#7249,just extracted relevant text
+facebook/react,https://github.com/facebook/react/issues/11347#issuecomment-535280476,issue_number,"Hey everyone, I started a pull request to fix this issue by changing two lines: #16899
+This allows a custom element author to do something like the following:",#16899,just extracted relevant text
+facebook/react,https://github.com/facebook/react/issues/11347#issuecomment-535289550,issue_number,"@trusktr I think this was discussed in #10070
+I'd really caution folks against telling custom element authors to override a built-in method like setAttribute. I don't think it's intended for us to monkey patch it. cc @gaearon",#10070,
+facebook/react,https://github.com/facebook/react/issues/11347#issuecomment-907481533,issue_number,Initial implementation work has started: #22184. Huge thanks @josepharhar for driving this.,#22184,
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318253930,issue_number,"@7rulnik Great bug, and I'm able to repro on my machine. I've filed it as #10299. Thanks!",#10299,
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318268342,issue_number,"Also seeing @7rulnik's issue #10294 (comment) regarding style on the server in production mode.
+(re is not a function)",#10294,
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318307522,issue_number,Hi! i opened an issue on react-virtualized repo #762 Thanks!,#762,
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318373461,issue_number,"@gaearon, @jlongster I bet it's caused by the changes to unstable_renderSubtreeIntoContainer (#5990, #9808)
+Oh, to slow. ;-)",#5990,
+facebook/react,https://github.com/facebook/react/issues/10294#issuecomment-318373461,issue_number,"@gaearon, @jlongster I bet it's caused by the changes to unstable_renderSubtreeIntoContainer (#5990, #9808)
+Oh, to slow. ;-)",#9808,
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-532646048,issue_number,"@elevatebart As far as I know, there is no standard ways for documenting source code and every library provider is writing their own generator at the moment. Just 2 weeks ago quasar has merged PR to include web-types (quasarframework/quasar#4749) and the feature should be released soon (dev branch was merged yesterday). Bootstrap-vue and vuetify have opened PRs to generate web-types. On my side I've written a generic generator which extracts information during runtime and combines it with static code analysis (https://github.com/JetBrains/web-types/tree/master/scripts/vue), which is used for extracting web-types for older versions of libraries already published on NPM. There are still some missing pieces of information in the format (e.g. JetBrains/web-types#7) and thanks to reports from the community the format is being improved.",#4749,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-532646048,issue_number,"@elevatebart As far as I know, there is no standard ways for documenting source code and every library provider is writing their own generator at the moment. Just 2 weeks ago quasar has merged PR to include web-types (quasarframework/quasar#4749) and the feature should be released soon (dev branch was merged yesterday). Bootstrap-vue and vuetify have opened PRs to generate web-types. On my side I've written a generic generator which extracts information during runtime and combines it with static code analysis (https://github.com/JetBrains/web-types/tree/master/scripts/vue), which is used for extracting web-types for older versions of libraries already published on NPM. There are still some missing pieces of information in the format (e.g. JetBrains/web-types#7) and thanks to reports from the community the format is being improved.",#7,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-349546359,issue_number,"However, after thinking through this, I think JSDoc might be a better approach.
+Either way, I can't have the runtime info easily so I need to parse the script myself and find the descriptions. The parser can be reused in the vue-template-compiler 2.0 redesign: vuejs/vue-component-compiler#28 (comment), where the descriptions go into descriptor.metadata or descriptor.descriptions.",#28,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/7186#issuecomment-676359653,issue_number,"@mesqueeb VSCode does not have support for ""web-types.json"", it uses a much more simplified format split into two files. As @rchl has mentioned above he has filed a feature request for Vetur to support web-types - vuejs/vetur#2090.",#2090,
+vuejs/vue,https://github.com/vuejs/vue/issues/8721#issuecomment-552407978,issue_number,@stoically microsoft/TypeScript#34999?,#34999,
+vuejs/vue,https://github.com/vuejs/vue/issues/8721#issuecomment-625669469,issue_number,"Having the same issue when using the new Vue.js Composition API with vscode-insiders. The code compiles without TS errors but vscode shows an error nonetheless.
+Details
+Version: typescript 3.8.3, eslint 6.8.0
+Possible related issues: #23987, #29511 #32573 #34999
+Type declaration didn't work here either as a workaorund. So this failed too in vscode:",#23987,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/8721#issuecomment-625669469,issue_number,"Having the same issue when using the new Vue.js Composition API with vscode-insiders. The code compiles without TS errors but vscode shows an error nonetheless.
+Details
+Version: typescript 3.8.3, eslint 6.8.0
+Possible related issues: #23987, #29511 #32573 #34999
+Type declaration didn't work here either as a workaorund. So this failed too in vscode:",#29511,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/8721#issuecomment-625669469,issue_number,"Having the same issue when using the new Vue.js Composition API with vscode-insiders. The code compiles without TS errors but vscode shows an error nonetheless.
+Details
+Version: typescript 3.8.3, eslint 6.8.0
+Possible related issues: #23987, #29511 #32573 #34999
+Type declaration didn't work here either as a workaorund. So this failed too in vscode:",#32573,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/8721#issuecomment-625669469,issue_number,"Having the same issue when using the new Vue.js Composition API with vscode-insiders. The code compiles without TS errors but vscode shows an error nonetheless.
+Details
+Version: typescript 3.8.3, eslint 6.8.0
+Possible related issues: #23987, #29511 #32573 #34999
+Type declaration didn't work here either as a workaorund. So this failed too in vscode:",#34999,just extracted relevant text
+vuejs/vue,https://github.com/vuejs/vue/issues/6811#issue-265326133,issue_number,"What problem does this feature solve?
+Within a large application that makes heavy use of inheritance and mixins, the lack of template inheritance causes much jumping through hoops. The rationale under #5401 is eloquently written and captures the gist of it, so I won't repeat it here.",#5401,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-15395614,issue_number,"UPDATE: I have been asked to take this down (#6342 (comment)). Sorry to anyone that got their hopes up. Please stick with using Jekyll and building the docs locally... you'll figure it out ;-)
+Bootstrap 3.0.0-wip Documentation as plain old HTML (Jekyll's output)...",#6342,just extracted relevant text
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-16430841,issue_number,"as mentioned in #3169 having a padding in a .container is quite necessary.
+Ah, gotcha. We won't be making this change then as it heavily alters our grid approach. Not for a 2.x release, but we'll bear it in mind for 3.0.
+please don't forget this feature, a lot of people would be really glad to see it in 3.0.0",#3169,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-16736712,issue_number,@SiteOctopus: Last rejected in #5626. I happen to like http://jasny.github.io/bootstrap/javascript.html#fileupload,#5626,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-18136862,issue_number,"@mdo
+I have opened a new issue, as you have requested:
+#7930",#7930,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-20192148,issue_number,@heruan: #8336,#8336,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-20366695,issue_number,@cwthomas-llu check #8105,#8105,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-20347791,issue_number,@ChrisRiddell i fixed the problem checkbox : #8274,#8274,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-20539897,issue_number,"@Bartmax That's basically #6865 and friends. Can't say that I agree with its closure.
+Also, the tfoot stuff has been be fixed/improved by 88a266b.",#6865,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-21361035,issue_number,@Surbma: sounds like #1235 and friends,#1235,
+twbs/bootstrap,https://github.com/twbs/bootstrap/pull/6342#issuecomment-21377669,issue_number,@RobertinoValue your comment is here: #1235,#1235,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-492397337,issue_number,"Summarising issue from the subject - it won't be possible to build such APK for both armeabi-v7a and arm64-v8a. Flutter uses AOT snapshots which are ABI dependant, so with APK only possible solution would be to use multiple APK builds.
+The solution would be to use App Bundles, which, as for now also has some issues (#31922).
+After #32787 got merged it's now possible to use App Bundles.",#31922,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-492397337,issue_number,"Summarising issue from the subject - it won't be possible to build such APK for both armeabi-v7a and arm64-v8a. Flutter uses AOT snapshots which are ABI dependant, so with APK only possible solution would be to use multiple APK builds.
+The solution would be to use App Bundles, which, as for now also has some issues (#31922).
+After #32787 got merged it's now possible to use App Bundles.",#32787,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-407578390,issue_number,Similar to #18939,#18939,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-421541803,issue_number,"I am also having the same issue.
+In all of my dependencies, I isolated at least one package causing the issue, I filled a bug report accordingly: azihsoyn/flutter_mlkit#36
+To isolate the problem, for each of my dependency / plugin:
+Create an empty flutter project
+Replace main.dart with
+the package example code (ex: https://pub.dartlang.org/packages/flutter_html_view#-example-tab-)
+Update pubspec.yaml accordingly
+run
+$ flutter build apk
+It turned out that the one creating was flutter_mlkit.
+I want to be able to target both 32 & 64 architectures.",#36,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-463535495,issue_number,"#17829 Is about the aap app bundels, but i can only find 32bit when compile With flutter build apk
+So when i understanding richt then we have to build two serperate versions with at least 32 and 64 upload them both and then the app stroe Will miraculously build an aap so that the consumer Gets the optimized Version for their specific archtecture",#17829,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-473576784,issue_number,appbundle looks like the solution going forward ... I guess next step is this: #29303,#29303,
+flutter/flutter,https://github.com/flutter/flutter/issues/18494#issuecomment-493810463,issue_number,This will be supported via flutter build appbundle after #32787 is merged!,#32787,
+flutter/flutter,https://github.com/flutter/flutter/issues/11609#issuecomment-388484681,issue_number,"@eseidelGoogle,
+How would Intellij and/or VS Code (with Dart-Code) be able to set breakpoints and step through code from a .dsx file ? (I mean this is not a .dart file). How about auto-complete functionality from the .dsx file (as with a .dart file) ?
+You have invested a lot on the tooling but the tooling does not support pre-processing (with source maps) of a new language (like DSX) that transpiles into Dart/Flutter seamlessly.
+A transpiler is available but there is no easy way to fully integrate it:
+https://spark-heroku-dsx.herokuapp.com/index.html
+P.S. This ticket is only half of the comments !!!
+#15922",#15922,
+flutter/flutter,https://github.com/flutter/flutter/issues/15922#issuecomment-375967036,issue_number,"This has been asked for a long time:
+#11609
+Functional prototype developed:
+https://spark-heroku-dsx.herokuapp.com/index.html
+That shows the alternative and some benefits...",#11609,
+flutter/flutter,https://github.com/flutter/flutter/issues/15922#issuecomment-376203237,issue_number,"This is a dup of the locked down #11609
+@sethladd ?",#11609,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-485013388,issue_number,"But then, according to electron/electron#15947 and electron/electron#16808 they're no longer required but still are documented as so???",#15947,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-485013388,issue_number,"But then, according to electron/electron#15947 and electron/electron#16808 they're no longer required but still are documented as so???",#16808,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-507532140,issue_number,"The same statement as in #65215 (comment) applies to this feature as well. Using features in Electron (or even having to introduce a native module for that purpose) comes at the risk of being exposed to exotic bugs because not a lot of other Electron applications are using these features and Electron is constantly moving forward with latest Chrome updates.
+To give concrete examples: VSCode is supporting macOS sierra native tabs as well as simple fullscreen support and only these 2 were a constant source of issues and frustration when they were not working anymore (see #35361, #75054).
+Even though Electron exposes an API to set windows as transparent, there is no guarantee that this feature will remain supported in future updates.
+Sorry for not posting this earlier.",#35361,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/52707#issuecomment-507532140,issue_number,"The same statement as in #65215 (comment) applies to this feature as well. Using features in Electron (or even having to introduce a native module for that purpose) comes at the risk of being exposed to exotic bugs because not a lot of other Electron applications are using these features and Electron is constantly moving forward with latest Chrome updates.
+To give concrete examples: VSCode is supporting macOS sierra native tabs as well as simple fullscreen support and only these 2 were a constant source of issues and frustration when they were not working anymore (see #35361, #75054).
+Even though Electron exposes an API to set windows as transparent, there is no guarantee that this feature will remain supported in future updates.
+Sorry for not posting this earlier.",#75054,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/106448#issue-698798077,issue_number,This PR fixes #70413,#70413,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/106448#issuecomment-742371268,issue_number,"Here is the result of the UX meeting with some additional requirements before we can merge this:
+the editor actions on the top right should move to bottom right in the last row and should not consume the entire vertical space so that the rows above can fill the entire width
+when workbench.editor.tabSizing: shrink is configured, tabs should not fill the last row and all tabs should have an even size across all rows
+we should have a limit as to how many rows we support (e.g. 3 or 4) and not just rely on the minimal editor height
+I will comment in #70413 about the status of this PR.",#70413 ,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/106448#issuecomment-755188575,issue_number,I have added your suggested solution to #113801.,#113801,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/12628#issue-179213062,issue_number,"Moves the traffic buttons on the window into the space above the activity bar on macOS - for full context see #12377
+TODO:
+Wrap up the config setting
+migrate all CSS to be scoped by .use-inline-toolbar
+fixes #12377",#12377,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/12628#issuecomment-253472523,issue_number,Btw Atom seems to now ship with a custom title bar and I wonder if we should also look into providing a custom title area color when you run in a dark theme: atom/atom#11790,#11790,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/12628#issuecomment-258853425,issue_number,@orta fyi I merged #15098 to master and plan to adopt the merge conflicts in this PR. My idea is still that your contribution would be another option in the newly introduced window.titleBarStyle setting.,#15098,
+microsoft/vscode,https://github.com/microsoft/vscode/pull/12628#issuecomment-267961297,issue_number,@bpasero See #17532,#17532,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/19160#issue-407411038,issue_number,"This provides a new authenticated device token, which will let you download gated videos! Closes #16764",#16764,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/7584#issuecomment-158649808,issue_number,"I've a technet account registered according to #6090 (comment), but I'm unable to view any of the courses claimed available for me.",#6090,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/7584#issuecomment-158658664,issue_number,There is already a PR (#6989) implementing forced sleep interval in order to avoid throttling and banned accounts. However I can't check whether it has any impact since mine is apparently banned. You can try it to see if it prevents 429's for you.,#6989,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/7584#issuecomment-158668034,issue_number,I've cherry-picked #6989 and randomized sleep interval in 38eb296. Thanks for testing.,#6989,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/14903#issue-278854070,issue_number,"PR #14887 has solved issue #14880 , however there is still a bug in which the length of downloaded video is about 10 minutes actually 20+ minutes.",#14887,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/14903#issue-278854070,issue_number,"PR #14887 has solved issue #14880 , however there is still a bug in which the length of downloaded video is about 10 minutes actually 20+ minutes.",#14880,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/14903#issuecomment-352369068,issue_number,Current ccode = '0501' cause another problem such as #14932,#14932,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/26684#issuecomment-705253522,issue_number,The track info is retrieved directly from the json-ld embedded in the page. Edit: @gilou I can confirm that with this the PR fixes #26681 Edit 2: Make sure to add import json near the top of the file,#26681,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/26684#issuecomment-728285651,issue_number,"JFTR, except for the possible semantic change of track all the problems raised in this issued should be solved by 3f1748b so I think this PR and issue #26681 can be closed. (Reverting back the old track change can be eventually discussed and addressed in a separate PR)",#26681,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25734#issuecomment-647026455,issue_number,"I tried it, but the login using cookies doesn't seem to work right now (see #24508). That's weird, I have it working here, with cookies. When I run with the subscriptions url and use --dump-page I get the correct page source",#24508,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25734#issuecomment-666416167,issue_number,"I fixed feed extraction again, but this time it also extracts all necessary info to download further pages. In my case I was able to go back the entire subscription feed (about 170 requests, 17k videos). This should fix #25695. Also broke python 2, but that should be fixable with something like this",#25695,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/8497#issue-132697332,issue_number,"In my computer the difference is not super spectacular. youtube-dl --version goes from 0.6s to 0.3-0.4s, in the case of the zipped executable it goes from 1s to 0.4s; and youtube-dl 'http://youtube.com/watch?v=BaW_jenozKcj' goes from 2.1s to 1.6s. On slower devices like the Raspberry Pi (#3029) the difference may be more noticeable.",#3029,just extracted relevant text
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/25717#issuecomment-659345022,issue_number,Somewhat related: #24882 ffmpeg now supports thumbnail embedding for MP4 video files.,#24882,
+ytdl-org/youtube-dl,https://github.com/ytdl-org/youtube-dl/pull/27825#issuecomment-769827993,issue_number,@remitamine thanks for your time. Can you give a look at #27618 when you have time so we can complete the vvvvid extractor issues.,#27618,
