@@ -6,7 +6,7 @@ def plot_bar(data_dict):
     scores = data_dict.values()
     colors = ['lightsteelblue', 'steelblue', 'yellowgreen']
     
-    plt.figure(figsize=(11,6))
+    plt.figure(figsize=(11,7))
     
     r = np.arange(len(n_entities))
     width = 0.25
