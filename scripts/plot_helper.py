@@ -33,5 +33,5 @@ def plot_bar(data_dict):
     plt.xlabel("Entity Type")
     plt.ylim(0.0,1.0)
     plt.xticks(r+width, n_entities)
-    plt.legend((bar1, bar2, bar3), ('Precision', 'Recall', 'F1'))
+    plt.legend((bar1, bar2, bar3), ('Precision', 'Recall', 'F1 Score'))
     plt.show()
