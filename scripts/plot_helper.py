@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+def plot_text(x_loc, scores):
+    for index, value in enumerate(scores):
+        plt.text(x_loc[index], value+0.01, "{0:.3f}".format(value))
+
 def plot_bar(data_dict):
     n_entities = data_dict.keys()
     scores = data_dict.values()
@@ -13,21 +17,15 @@ def plot_bar(data_dict):
     
     precision = [score[0] for score in scores]
     bar1 = plt.bar(r, precision, width, color=colors[0], edgecolor='black')
-    x_bar1 = r-0.1
-    for index, value in enumerate(precision):
-        plt.text(x_bar1[index], value+0.01, "{0:.3f}".format(value))
+    plot_text(r-0.1, precision)
     
     recall = [score[1] for score in scores]
     bar2 = plt.bar(r+width, recall, width, color=colors[1], edgecolor='black')
-    x_bar2 = r+width-0.1
-    for index, value in enumerate(recall):
-        plt.text(x_bar2[index], value+0.01, "{0:.3f}".format(value))
+    plot_text(r+width-0.1, recall)
     
     f1 = [score[2] for score in scores]
     bar3 = plt.bar(r+width*2, f1, width, color=colors[2], edgecolor='black')
-    x_bar3 = r+width*2-0.1
-    for index, value in enumerate(f1):
-        plt.text(x_bar3[index], value+0.01, "{0:.3f}".format(value))
+    plot_text(r+width*2-0.1, f1)
     
     plt.title("Results")
     plt.xlabel("Entity Type")
